@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -21,14 +20,12 @@
 
 title: My First site
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Project updates coming soon
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: Ads98
+baseurl: ""
+url: ""
 github_username:  Adam
 
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed

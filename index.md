@@ -59,7 +59,7 @@ I find that my greatest joys in work come from research — diving into complex 
 ---
 
 <!-- ✅ Projects Section - Full Width -->
-<section class="rojects-section text-light py-5" style="width: 100vw; margin-left: calc(-50vw + 50%);">
+<section class="projects-section text-light py-5" style="width: 100vw; margin-left: calc(-50vw + 50%);">
   <div class="container">
     <h2 class="text-center mb-4">Projects</h2>
     <div class="row justify-content-center">

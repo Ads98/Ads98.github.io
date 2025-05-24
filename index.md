@@ -19,18 +19,20 @@ After graduating, I joined the Centre for Doctoral Training in Health Data Scien
 I find that my greatest joys in work come from research — diving into complex problems, learning how things tick beneath the surface, and uncovering new insights along the way. Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!
 <div class="row mt-5">
 
+  <!-- ✅ Interests with bullet points -->
   <div class="col-md-5">
     <div class="section-subheading">Interests</div>
-    <ul class="list-unstyled mb-0">
+    <ul class="mb-0">
       <li class="mb-1">Predictive modelling</li>
       <li class="mb-1">Signal processing</li>
       <li class="mb-1">Survival analysis</li>
     </ul>
   </div>
 
+  <!-- ✅ Education with Font Awesome icons -->
   <div class="col-md-7">
     <div class="section-subheading">Education</div>
-    <ul class="fa-ul list-unstyled mb-0">
+    <ul class="fa-ul mb-0">
       <li class="d-flex mb-2">
         <span class="fa-li"><i class="fas fa-graduation-cap text-secondary"></i></span>
         <div>

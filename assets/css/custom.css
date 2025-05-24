@@ -44,3 +44,8 @@
   .page-content-below-navbar {
     padding-top: 120px; /* or adjust until it's perfect */
   }
+
+  .projects-section {
+    background-color: #f5f5f5;  /* a soft gray */
+  }
+  

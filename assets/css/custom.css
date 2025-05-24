@@ -4,8 +4,14 @@
     margin-bottom: 1rem;
   }
   
-  /* Bullet list (Interests) spacing */
-  ul li {
+/* 🔵 Enable bullets for Interests */
+.interest-list {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+    margin-left: 0;
+  }
+  
+  .interest-list li {
     line-height: 1.3;
     margin-bottom: 0.4rem;
   }

@@ -21,13 +21,13 @@ I find that my greatest joys in work come from research — diving into complex 
 
   <!-- ✅ Interests with bullet points -->
   <div class="col-md-5">
-    <div class="section-subheading">Interests</div>
-    <ul class="mb-0">
-      <li class="mb-1">Predictive modelling</li>
-      <li class="mb-1">Signal processing</li>
-      <li class="mb-1">Survival analysis</li>
-    </ul>
-  </div>
+  <div class="section-subheading">Interests</div>
+  <ul class="interest-list mb-0">
+    <li class="mb-1">Predictive modelling</li>
+    <li class="mb-1">Signal processing</li>
+    <li class="mb-1">Survival analysis</li>
+  </ul>
+</div>
 
   <!-- ✅ Education with Font Awesome icons -->
   <div class="col-md-7">

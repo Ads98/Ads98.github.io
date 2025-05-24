@@ -1,26 +1,60 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- 🔗 Left: Social icons -->
+    <div class="d-flex align-items-center gap-3">
+        <a href="mailto:your@email.com" class="text-light" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" class="text-light" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+        <a href="https://scholar.google.com/..." class="text-light" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
+        <a href="https://github.com/yourusername" class="text-light" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" class="text-light" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="/cv.pdf" class="text-light" aria-label="CV"><i class="fas fa-briefcase"></i></a>
+      </div>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/projects/' | relative_url }}">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <!-- 🔗 Right: Menu + always-visible link -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/publications/' | relative_url }}">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/repositories/' | relative_url }}">Repositories</a>
+          </li>
+        </ul>
+      </div>
+      
+       <!-- 🔘 Navbar Toggler (for small screens) -->
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+       aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+ 
+     <!-- 🔗 Collapsible navigation links -->
+     <div class="collapse navbar-collapse justify-content-end" id="navbarMain">
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link" href="{{ '/' | relative_url }}">About</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="{{ '/publications/' | relative_url }}">Publications</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="{{ '/repositories/' | relative_url }}">Repositories</a>
+         </li>
+         <!-- Contact again for mobile menu -->
+         <li class="nav-item d-lg-none">
+           <a class="nav-link" href="{{ '/contact/' | relative_url }}">Contact</a>
+         </li>
+       </ul>
+     </div>
+ 
+   </div>
+ </nav>

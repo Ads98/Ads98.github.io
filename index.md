@@ -54,42 +54,38 @@ I find that my greatest joys in work come from research — diving into complex 
 
 ---
 
-<!-- ✅ Projects Section -->
-<div class="projects-section py-5 w-100">
-  <div class="container-fluid px-0">
-    <div class="bg-dark text-light py-5">
-      <div class="container">
-        <h2 class="text-center mb-4">Projects</h2>
-        <div class="row justify-content-center">
+<!-- ✅ Projects Section - Full Width -->
+<section class="bg-dark text-light py-5" style="width: 100vw; margin-left: calc(-50vw + 50%);">
+  <div class="container">
+    <h2 class="text-center mb-4">Projects</h2>
+    <div class="row justify-content-center">
 
-          <!-- ECG Project -->
-          <div class="col-md-5 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100">
-              <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project">
-              <div class="card-body">
-                <h5 class="card-title">ECG Survival</h5>
-                <p class="card-text">Deep learning with ECGs to predict long-term cardiovascular outcomes.</p>
-                <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
-                <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
-              </div>
-            </div>
+      <!-- ECG Survival Project -->
+      <div class="col-md-5 col-lg-4 mb-4">
+        <div class="card bg-secondary text-light shadow-sm h-100">
+          <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project">
+          <div class="card-body">
+            <h5 class="card-title">ECG Survival</h5>
+            <p class="card-text">Developing deep learning models using ECG data to predict long-term cardiovascular outcomes.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Details</a>
+            <a href="#" class="btn btn-outline-light btn-sm">Code</a>
           </div>
-
-          <!-- LLM Project -->
-          <div class="col-md-5 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100">
-              <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project">
-              <div class="card-body">
-                <h5 class="card-title">LLMs for Biomedical Text</h5>
-                <p class="card-text">Using large language models for summarising biomedical literature and extracting insights.</p>
-                <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
-                <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
+
+      <!-- LLMs Project -->
+      <div class="col-md-5 col-lg-4 mb-4">
+        <div class="card bg-secondary text-light shadow-sm h-100">
+          <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project">
+          <div class="card-body">
+            <h5 class="card-title">LLMs for Biomedical Text</h5>
+            <p class="card-text">Exploring the use of large language models for summarising biomedical literature and structuring evidence.</p>
+            <a href="#" class="btn btn-outline-light btn-sm">Details</a>
+            <a href="#" class="btn btn-outline-light btn-sm">Code</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
+</section>

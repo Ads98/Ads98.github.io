@@ -37,3 +37,6 @@
     color: #6c757d !important;
   }
   
+  .navbar.bg-light {
+    background-color: #f8f9fa !important;  /* Bootstrap's default light */
+  }

@@ -52,3 +52,38 @@ I find that my greatest joys in work come from research — diving into complex 
 
 </div>
 
+
+
+<!-- ✅ Projects Section -->
+<section class="mt-5">
+  <h2 class="text-center mb-4">Projects</h2>
+  <div class="row justify-content-center">
+
+    <!-- ECG Survival Project -->
+    <div class="col-md-5 col-lg-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <img src="/assets/img/ecg.jpg" class="card-img-top" alt="ECG Survival Project">
+        <div class="card-body">
+          <h5 class="card-title">ECG Survival</h5>
+          <p class="card-text">Developing deep learning models using ECG data to predict long-term cardiovascular outcomes. This project includes survival analysis, time-to-event modeling, and clinical validation.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
+          <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- LLMs Project -->
+    <div class="col-md-5 col-lg-4 mb-4">
+      <div class="card shadow-sm h-100">
+        <img src="/assets/img/LLM.jpg" class="card-img-top" alt="LLMs Project">
+        <div class="card-body">
+          <h5 class="card-title">LLM’s for Biomedical Text</h5>
+          <p class="card-text">Exploring the use of large language models (LLMs) for summarizing biomedical papers, extracting structured knowledge, and improving evidence synthesis workflows.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
+          <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>

@@ -46,7 +46,7 @@
   }
 
   .projects-section {
-    background-color: #545454;
+    background-color: #eaeaeaad;
     color: #fff;
     margin-left: 0;
     margin-right: 0;
@@ -57,7 +57,7 @@
   
 
   .projects-section .card {
-    background-color: #5b5959;
+    background-color: #000000;
     color: #fff;
     border: none;
   }

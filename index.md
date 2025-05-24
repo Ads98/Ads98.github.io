@@ -21,31 +21,32 @@ I find that my greatest joys in work come from research — diving into complex 
 
   <div class="col-md-5">
     <div class="section-subheading">Interests</div>
-    <ul class="ul-interests mb-0">
-      <li>Predictive modelling</li>
-      <li>Signal processing</li>
-      <li>Survival analysis</li>
+    <ul class="list-unstyled mb-0">
+      <li class="mb-1">Predictive modelling</li>
+      <li class="mb-1">Signal processing</li>
+      <li class="mb-1">Survival analysis</li>
     </ul>
   </div>
 
   <div class="col-md-7">
     <div class="section-subheading">Education</div>
-    <ul class="ul-edu fa-ul mb-0">
-      <li>
-        <i class="fa-li fas fa-graduation-cap"></i>
-        <div class="description">
-          <p class="course">PhD in Health Data Science, 2025</p>
-          <p class="institution">University of Oxford</p>
+    <ul class="fa-ul list-unstyled mb-0">
+      <li class="d-flex mb-2">
+        <span class="fa-li"><i class="fas fa-graduation-cap text-secondary"></i></span>
+        <div>
+          <p class="mb-0 fw-semibold">PhD in Health Data Science, 2025</p>
+          <p class="mb-0 text-muted">University of Oxford</p>
         </div>
       </li>
-      <li>
-        <i class="fa-li fas fa-graduation-cap"></i>
-        <div class="description">
-          <p class="course">BSc (Hons) in Computer Science, 2020</p>
-          <p class="institution">University of Nottingham</p>
+      <li class="d-flex mb-2">
+        <span class="fa-li"><i class="fas fa-graduation-cap text-secondary"></i></span>
+        <div>
+          <p class="mb-0 fw-semibold">BSc (Hons) in Computer Science, 2020</p>
+          <p class="mb-0 text-muted">University of Nottingham</p>
         </div>
       </li>
     </ul>
   </div>
 
 </div>
+

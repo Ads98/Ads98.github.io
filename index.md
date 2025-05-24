@@ -56,7 +56,7 @@ I find that my greatest joys in work come from research — diving into complex 
 
 <!-- ✅ Projects Section -->
 <section class="projects-section py-5">
-  <h2 class="text-center mb-4">Projects</h2>
+  <h2 class="text-center mb-4 text-white">Projects</h2>
   <div class="row justify-content-center">
 
     <!-- ECG Survival Project -->

@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-        <!-- ✅ Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-      
-        <!-- ✅ Font Awesome (for graduation cap icons) -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-      
-        <!-- ✅ Your custom site styles -->
-        <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-      
-        {{ site.seo }}
-      </head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<body class="container py-5">
+    <!-- ✅ Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
- {% include navbar.html %}
- 
-  <!-- ✅ Profile section -->
-  {% if page.profile and page.profile.image %}
-  <div class="text-center mb-4">
-    {% if page.profile.image_circular %}
-      <img src="{{ page.profile.image | relative_url }}"
-           alt="Profile picture"
-           style="max-width: 200px; border-radius: 50%;">
-    {% else %}
-      <img src="{{ page.profile.image | relative_url }}"
-           alt="Profile picture"
-           style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
+    <!-- ✅ Font Awesome (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- ✅ Your custom site styles -->
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/custom.css' | relative_url }}"
+    />
+
+    {{ site.seo }}
+  </head>
+
+  <body class="bg-light">
+    {% include navbar.html %}
+
+    <!-- ✅ Profile section -->
+    {% if page.profile and page.profile.image %}
+      <div class="text-center mb-4">
+        {% if page.profile.image_circular %}
+          <img
+            src="{{ page.profile.image | relative_url }}"
+            alt="Profile picture"
+            style="max-width: 200px; border-radius: 50%"
+          />
+        {% else %}
+          <img
+            src="{{ page.profile.image | relative_url }}"
+            alt="Profile picture"
+            style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%"
+          />
+        {% endif %}
+        <div class="mt-2">
+          <p class="mb-0 fw-semibold">PhD Health Data Science</p>
+          <p class="mb-0 text-muted">University of Oxford</p>
+        </div>
+      </div>
     {% endif %}
 
-    <!-- 👇 Caption text under image -->
-    <div class="mt-2">
-      <p class="mb-0 fw-semibold">PhD Health Data Science</p>
-      <p class="mb-0 text-muted">University of Oxford</p>
+    <!-- ✅ Main page content -->
+    <div class="container pt-4">
+      {{ content }}
     </div>
-  </div>
-{% endif %}
 
-  <!-- ✅ Main page content -->
-  {{ content }}
-
-  <!-- ✅ Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- ✅ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

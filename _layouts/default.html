@@ -16,9 +16,11 @@
       
         {{ site.seo }}
       </head>
-      
+
 <body class="container py-5">
 
+ {% include navbar.html %}
+ 
   <!-- ✅ Profile section -->
   {% if page.profile and page.profile.image %}
   <div class="text-center mb-4">

@@ -4,7 +4,7 @@ title: "Home"
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: /assets/images/profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 

@@ -75,7 +75,7 @@ I find that my greatest joys in work come from research — diving into complex 
     <!-- LLMs Project -->
     <div class="col-md-5 col-lg-4 mb-4">
       <div class="card shadow-sm h-100">
-        <img src="/assets/img/LLM.jpeg" class="card-img-top" alt="LLMs Project">
+        <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project">
         <div class="card-body">
           <h5 class="card-title">LLM’s for Biomedical Text</h5>
           <p class="card-text">Exploring the use of large language models (LLMs) for summarizing biomedical papers, extracting structured knowledge, and improving evidence synthesis workflows.</p>

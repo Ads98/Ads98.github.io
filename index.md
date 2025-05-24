@@ -20,14 +20,14 @@ I find that my greatest joys in work come from research — diving into complex 
 <div class="row mt-5">
 
   <!-- ✅ Interests with bullet points -->
-<div class="col-md-5">
-  <div class="section-subheading">Interests</div>
-  <ul class="interest-list">
-    <li>Predictive modelling</li>
-    <li>Signal processing</li>
-    <li>Survival analysis</li>
-  </ul>
-</div>
+  <div class="col-md-5">
+    <div class="section-subheading">Interests</div>
+    <ul class="interest-list">
+      <li>Predictive modelling</li>
+      <li>Signal processing</li>
+      <li>Survival analysis</li>
+    </ul>
+  </div>
 
   <!-- ✅ Education with Font Awesome icons -->
   <div class="col-md-7">
@@ -52,7 +52,7 @@ I find that my greatest joys in work come from research — diving into complex 
 
 </div>
 
-
+---
 
 <!-- ✅ Projects Section -->
 <section class="projects-section py-5 w-100">

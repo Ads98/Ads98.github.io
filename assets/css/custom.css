@@ -36,7 +36,11 @@
     font-size: 0.9rem;
     color: #6c757d !important;
   }
-  
+
   .navbar.bg-light {
     background-color: #f8f9fa !important;  /* Bootstrap's default light */
+  }
+
+  .page-content-below-navbar {
+    padding-top: 120px; /* or adjust until it's perfect */
   }

@@ -5,21 +5,25 @@ title: "Home"
 profile:
   align: right
   image: /assets/img/profile_pic.jpeg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info:
-
 ---
+
 # Biography
-Hi, and welcome to my About Me page! I’m a currently a graduating PhD in Health Data Science at the University of Oxford, specialising in deep learning and predictive modelling.
+
+Hi, and welcome to my About Me page! I’m currently a graduating PhD student in Health Data Science at the University of Oxford, specialising in deep learning and predictive modelling.
 
 I completed my undergraduate degree in Computer Science at the University of Nottingham, where I also spent 13 months at Intel as a Software Application Engineer. During my placement, I worked on software consultation for financial services clients, optimising trading algorithms, and managing high-performance computing resources.
 
-After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry. Throught my research I worked in collaboration with Swiss Re and completed an internship in actuarial modelling and scientific communication — blog post coming soon!
+After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry. Throughout my research I worked in collaboration with Swiss Re and completed an internship in actuarial modelling and scientific communication — blog post coming soon!
 
 I find that my greatest joys in work come from research — diving into complex problems, learning how things tick beneath the surface, and uncovering new insights along the way. Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!
+
+---
+
 <div class="row mt-5">
 
-  <!-- ✅ Interests with bullet points -->
+  <!-- ✅ Interests -->
   <div class="col-md-5">
     <div class="section-subheading">Interests</div>
     <ul class="interest-list">
@@ -29,7 +33,7 @@ I find that my greatest joys in work come from research — diving into complex 
     </ul>
   </div>
 
-  <!-- ✅ Education with Font Awesome icons -->
+  <!-- ✅ Education -->
   <div class="col-md-7">
     <div class="section-subheading">Education</div>
     <ul class="fa-ul mb-0">
@@ -63,7 +67,7 @@ I find that my greatest joys in work come from research — diving into complex 
       <!-- ECG Survival Project -->
       <div class="col-md-5 col-lg-4 mb-4">
         <div class="card bg-secondary text-light shadow-sm h-100">
-          <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project">
+          <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project" />
           <div class="card-body">
             <h5 class="card-title">ECG Survival</h5>
             <p class="card-text">Developing deep learning models using ECG data to predict long-term cardiovascular outcomes.</p>
@@ -76,7 +80,7 @@ I find that my greatest joys in work come from research — diving into complex 
       <!-- LLMs Project -->
       <div class="col-md-5 col-lg-4 mb-4">
         <div class="card bg-secondary text-light shadow-sm h-100">
-          <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project">
+          <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project" />
           <div class="card-body">
             <h5 class="card-title">LLMs for Biomedical Text</h5>
             <p class="card-text">Exploring the use of large language models for summarising biomedical literature and structuring evidence.</p>

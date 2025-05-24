@@ -1,0 +1,25 @@
+.section-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.ul-edu .description {
+  margin-left: 0.5rem;
+}
+
+.ul-edu .course {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.ul-edu .institution {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.ul-edu .fa-li {
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}

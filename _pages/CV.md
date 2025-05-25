@@ -3,7 +3,6 @@ layout: default
 title: "CV"
 permalink: /CV/
 ---
-
 # Curriculum Vitae 
 I am a graduating PhD student in Data Science at the University of Oxford. I have 4+ years' experience as a Machine Learning Engineer, working across academia, finance and insurance. 
 

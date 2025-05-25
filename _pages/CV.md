@@ -28,6 +28,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 
+
 <hr>
 
 
@@ -88,7 +89,7 @@ _University of Nottingham, September 2016 – July 2020_
 - Sturge, Harper et al. [_Added value of step count and sleep activity to the prediction of all-cause mortality_.](https://doi.org/10.1101/2025.04.03.25325101)
 
 **Industry Reports**  
-- *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/institute/research/topics-and-risk-dialogues/health-and-aging/alzheimers-disease-insurance.html)
+- *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
 
 
 

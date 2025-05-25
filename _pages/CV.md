@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "CV"
-permalink: /cv/
+permalink: /CV/
 ---
 
 # Place holder CV full CV coming soon!

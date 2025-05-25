@@ -32,102 +32,136 @@ Below is a summary of my academic background, research experience, and technical
 <hr>
 
 
-## 💼 Professional  Experience
+<div class="accordion" id="cvAccordion">
 
-**PhD Researcher in Health Data Science: _University of Oxford, October 2020 – May 2025_**
-- Designed scalable deep learning pipelines for medical device data such as ECG to predict incident disease.  
-- Achieved up to 17% improvement in identifying eligible patients for treatment over current NHS risk tools.  
-- Presented at international conferences including ESC, BSC, and ICAMPAM.
+<!-- 💼 Professional Experience -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="expHeading">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#expCollapse" aria-expanded="true" aria-controls="expCollapse">
+      💼 Professional Experience
+    </button>
+  </h2>
+  <div id="expCollapse" class="accordion-collapse collapse show" aria-labelledby="expHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      <strong>PhD Researcher in Health Data Science:</strong> _University of Oxford, Oct 2020 – May 2025_  
+      - Designed scalable deep learning pipelines for medical device data such as ECG  
+      - Improved patient stratification over NHS tools by 17%  
+      - Presented at ESC, BSC, ICAMPAM  
 
-**Life & Health R&D Analyst (Intern): _Swiss Re, June – August 2024_**
-- Conducted mortality forecasting on 6M+ individuals using LSTM and ARIMA models to inform pricing strategy.  
-- Applied causal inference methods (e.g., G-computation) to evaluate mortality differences between insured and uninsured populations.  
-- Authored technical reports on medical innovation and regulatory implications for life & health insurance.
+      <br><strong>Life & Health R&D Analyst (Intern):</strong> _Swiss Re, Jun – Aug 2024_  
+      - Conducted mortality forecasting on 6M+ individuals using LSTM and ARIMA  
+      - Applied causal inference (G-computation)  
+      - Authored regulatory white papers  
 
-**Software Application Engineer (Intern): _Intel Corporation, July 2018 – August 2019_**
-- Provided software consultation for financial services firms, focusing on economic and financial applications.  
-- Optimized quantitative algorithms (e.g., Black-Scholes, Monte Carlo) for real-time trading environments.  
-- Deployed ML solutions for real-time motion data processing on wearable devices.
+      <br><strong>Software Application Engineer (Intern):</strong> _Intel Corporation, Jul 2018 – Aug 2019_  
+      - Optimised financial algorithms (e.g., Black-Scholes)  
+      - Delivered ML motion detection pipelines  
+    </div>
+  </div>
+</div>
 
+<!-- 🎓 Education -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="eduHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduCollapse" aria-expanded="false" aria-controls="eduCollapse">
+      🎓 Education
+    </button>
+  </h2>
+  <div id="eduCollapse" class="accordion-collapse collapse" aria-labelledby="eduHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      <strong>PhD in Health Data Science (EPSRC CDT):</strong> _Oxford, 2020 – 2025_  
+      - Full scholarship, ~£100,000 stipend  
 
+      <br><strong>BSc (Hons) Computer Science:</strong> _Nottingham, 2016 – 2020_  
+      - First Class Honours (85%), Top of Cohort  
+    </div>
+  </div>
+</div>
 
+<!-- 🛠️ Technical Skills -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="techHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#techCollapse" aria-expanded="false" aria-controls="techCollapse">
+      🛠️ Technical Skills
+    </button>
+  </h2>
+  <div id="techCollapse" class="accordion-collapse collapse" aria-labelledby="techHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      - **Languages & Frameworks:** Python, R, SQL, C, Java, Haskell  
+      - **ML/DL:** PyTorch, TensorFlow, SHAP  
+      - **MLOps:** ClearML, Git, Docker  
+      - **Data:** Pandas, NumPy, Spark  
+    </div>
+  </div>
+</div>
 
-<hr>
-## 🎓 Education
+<!-- 📚 Publications -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="pubsHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pubsCollapse" aria-expanded="false" aria-controls="pubsCollapse">
+      📚 Publications
+    </button>
+  </h2>
+  <div id="pubsCollapse" class="accordion-collapse collapse" aria-labelledby="pubsHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      - Sturge, Harper et al. [_Step count and sleep for mortality prediction_](https://doi.org/10.1101/2025.04.03.25325101)  
+      - *Swiss Re Institute*. [_Alzheimer’s disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
+    </div>
+  </div>
+</div>
 
+<!-- 🏆 Awards -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="awardsHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#awardsCollapse" aria-expanded="false" aria-controls="awardsCollapse">
+      🏆 Awards
+    </button>
+  </h2>
+  <div id="awardsCollapse" class="accordion-collapse collapse" aria-labelledby="awardsHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      - EPSRC Studentship (2020–24)  
+      - Nottingham Top Student Award (2020)  
+      - Academic Excellence Awards (2017, 2018)
+    </div>
+  </div>
+</div>
 
-**PhD in Health Data Science (EPSRC CDT)_University of Oxford, October 2020 – May 2025_**  
-- Fully funded scholarship with enhanced stipend (~£100,000 over four years).  
+<!-- 🎤 Talks -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="talksHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talksCollapse" aria-expanded="false" aria-controls="talksCollapse">
+      🎤 Invited Talks
+    </button>
+  </h2>
+  <div id="talksCollapse" class="accordion-collapse collapse" aria-labelledby="talksHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      - ESC Congress (Aug 2024)  
+      - BCS Annual (Jun 2024, x2 Best of the Best)  
+      - ISMPA (Jun 2024)  
+      - BHF Oxford Symposium (Nov 2023)
+    </div>
+  </div>
+</div>
 
-**BSc (Hons) in Computer Science _University of Nott ingham, September 2016 – July 2020_**  
-- First Class Honours, 85% — ranked 1st of 180 students; awarded School of Computer Science Top Student Award.  
+<!-- 🤝 Outreach -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="outreachHeading">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#outreachCollapse" aria-expanded="false" aria-controls="outreachCollapse">
+      🤝 Outreach & Leadership
+    </button>
+  </h2>
+  <div id="outreachCollapse" class="accordion-collapse collapse" aria-labelledby="outreachHeading" data-bs-parent="#cvAccordion">
+    <div class="accordion-body">
+      - Treasurer, Austrian Society (Oxford, 2022–24)  
+      - STEM Lead, Intel Inspire (2018–19)
+    </div>
+  </div>
+</div>
 
+</div>
 
+---
 
-<hr>
-## 🛠️ Technical Skills
-
-- **Programming Languages & Frameworks**: Python, R, SQL, C, Java, Haskell  
-  5+ years’ experience with PyTorch, TensorFlow, Scikit-learn, Pandas, and NumPy for ML pipelines.
-
-- **Predictive Modelling**: Implemented explainable deep neural networks for time-series risk prediction using SHAP for feature attribution.
-
-- **MLOps & Cloud Platforms**: Applied MLOps practices with ClearML for model versioning and tracking; proficient in Git, AWS, and Palantir Foundry.
-
-- **Feature Engineering**: Designed custom pipelines for high-frequency sensor data using Fourier transforms, CNNs, and contrastive learning.
-
-- **Communication & Stakeholder Engagement**: Presented findings at major international conferences to scientific and commercial audiences.
-
-<hr>
-
-
-## 📚 Publications
-
-**First-author Manuscripts**  
-- Sturge, Harper et al. [_Added value of step count and sleep activity to the prediction of all-cause mortality_.](https://doi.org/10.1101/2025.04.03.25325101)
-
-**Industry Reports**  
-- *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
-
-
-<hr>
-
-## 🎤 Invited Talks
-
-- **European Society of Cardiology Congress** — August 2024  
-- **British Cardiovascular Society Annual Conference** — June 2024  
-    - _Best of the Best oral presentation award (x2)_
-
-- **International Society for the Measurement of Physical Activity** — June 2024  
-- **BHF Centre for Research Excellence Symposium** — November 2023
-
-<hr>
-
-
-## 🏆 Awards
-
-**EPSRC Health Data Science CDT Studentship _September 2020 – December 2024_**  
-- Full tuition and enhanced stipend (~£100,000 over four years).
-
-**University of Nottingham Top Student Award_July 2020_**  
-- Graduated 1st in cohort; awarded for outstanding academic performance.
-
-**Undergraduate Exceptional Achievement Awards _July 2017, July 2018_**  
-- Awarded for ranking in top 5 of cohort for academic achievement.
-
-
-
-<hr>
-
-## 🤝 Outreach & Leadership
-
-**Treasurer, Austrian Society, University of Oxford _October 2022 – October 2024_**  
-- Managed finances and organised cultural events to foster UK–Austria connections.
-
-**Technical Lead, Intel Inspire STEM Committee _July 2018 – August 2019_**  
-- Led outreach reaching 1,000+ students annually, delivering workshops in AI, hardware, and programming.
-<hr>
 ## 📄 Download
 
 - [Download CV (PDF)](/assets/files/CV.pdf)
-

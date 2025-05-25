@@ -57,5 +57,5 @@ _2024_
 
 ## 📄 Download
 
-- [Download CV (PDF)](/cv.pdf)
+- [Download CV (PDF)](/assets/files/CV.pdf)
 

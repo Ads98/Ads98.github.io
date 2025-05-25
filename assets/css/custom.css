@@ -171,8 +171,11 @@ body.dark-mode .text-muted {
   margin-bottom: 1rem;
 }
 
-.cv-page p,
+.cv-page p{
+  font-size: 1.75rem;
+}
+
 .cv-page li {
   font-size: 1.75rem;
-  line-height: 5;
+  line-height: 2.5;
 }

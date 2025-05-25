@@ -64,12 +64,12 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 💼 Professional Experience -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingExp">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
+     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="true" aria-controls="collapseExp">
       💼 Professional Experience
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseExp" class="accordion-collapse collapse show" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
       <p><strong>PhD Researcher in Health Data Science</strong> – <em>University of Oxford, Oct 2020 – May 2025</em></p>
       <ul>
@@ -96,12 +96,12 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🎓 Education -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingEdu">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu" aria-expanded="true" aria-controls="collapseEdu">
       🎓 Education
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseEdu" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseEdu" class="accordion-collapse collapse show" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
       <p><strong>PhD, Health Data Science (EPSRC CDT)</strong> – <em>University of Oxford</em></p>
       <ul>

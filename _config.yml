@@ -39,8 +39,8 @@ include:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Acquah]
-  first_name: [Aidan, A.]
+  last_name: [Sturge]
+  first_name: [Adam, A.]
 
   style: apa
   locale: en

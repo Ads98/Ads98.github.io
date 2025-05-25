@@ -156,8 +156,8 @@ body.dark-mode .text-muted {
 
 /* 📝 Extra spacing between sections in CV page */
 .cv-page hr {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .cv-page h2,

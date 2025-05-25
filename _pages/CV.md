@@ -31,23 +31,19 @@ Below is a summary of my academic background, research experience, and technical
 <hr>
 
 
-
 ## 💼 Professional  Experience
 
-**PhD Researcher in Health Data Science**  
-_University of Oxford, October 2020 – May 2025_  
+**PhD Researcher in Health Data Science: _University of Oxford, October 2020 – May 2025_**
 - Designed scalable deep learning pipelines for medical device data such as ECG to predict incident disease.  
 - Achieved up to 17% improvement in identifying eligible patients for treatment over current NHS risk tools.  
 - Presented at international conferences including ESC, BSC, and ICAMPAM.
 
-**Life & Health R&D Analyst (Intern)**  
-_Swiss Re, June – August 2024_  
+**Life & Health R&D Analyst (Intern): _Swiss Re, June – August 2024_**
 - Conducted mortality forecasting on 6M+ individuals using LSTM and ARIMA models to inform pricing strategy.  
 - Applied causal inference methods (e.g., G-computation) to evaluate mortality differences between insured and uninsured populations.  
 - Authored technical reports on medical innovation and regulatory implications for life & health insurance.
 
-**Software Application Engineer (Intern)**  
-_Intel Corporation, July 2018 – August 2019_  
+**Software Application Engineer (Intern) **_Intel Corporation, July 2018 – August 2019_**
 - Provided software consultation for financial services firms, focusing on economic and financial applications.  
 - Optimized quantitative algorithms (e.g., Black-Scholes, Monte Carlo) for real-time trading environments.  
 - Deployed ML solutions for real-time motion data processing on wearable devices.
@@ -89,8 +85,7 @@ _University of Nottingham, September 2016 – July 2020_
 ## 📚 Publications
 
 **First-author Manuscripts**  
-- Sturge, Harper et al. _Added value of step count and sleep activity to the prediction of all-cause mortality_.  
-  [https://doi.org/10.1101/2025.04.03.25325101](https://doi.org/10.1101/2025.04.03.25325101)
+- Sturge, Harper et al. [_Added value of step count and sleep activity to the prediction of all-cause mortality_.](https://doi.org/10.1101/2025.04.03.25325101)
 
 **Industry Reports**  
 - *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/institute/research/topics-and-risk-dialogues/health-and-aging/alzheimers-disease-insurance.html)

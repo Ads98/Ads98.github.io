@@ -32,6 +32,7 @@ Below is a summary of my academic background, research experience, and technical
 <hr>
 
 <!-- ✅ Bootstrap Accordion -->
+{% raw %}
 <div class="accordion" id="cvAccordion">
 
 <!-- 💼 Professional Experience -->
@@ -42,7 +43,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 **PhD Researcher in Health Data Science** – _University of Oxford, Oct 2020 – May 2025_  
 - Built deep learning pipelines for ECG-based cardiovascular risk  
 - Outperformed NHS tools by up to 17% in targeting preventive care  
@@ -67,7 +68,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseEdu" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 **PhD, Health Data Science (EPSRC CDT)** – _University of Oxford_  
 - Fully funded with ~£100k studentship  
 - Research on wearable sensor data and cardiovascular risk  
@@ -87,7 +88,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseSkills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 - **Languages**: Python, R, SQL, C, Java, Haskell  
 - **ML/DL**: PyTorch, TensorFlow, scikit-learn, SHAP  
 - **Cloud/MLOps**: Docker, Git, ClearML, AWS  
@@ -105,7 +106,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapsePubs" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 **First-author manuscripts**  
 - Sturge, Harper et al. [_Added value of step count & sleep in mortality prediction_](https://doi.org/10.1101/2025.04.03.25325101)  
 
@@ -123,7 +124,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseAwards" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 - **EPSRC CDT Studentship** – Full funding, 2020–2024  
 - **Top Student Award**, Nottingham – 2020  
 - **Exceptional Achievement Awards** – 2017 & 2018
@@ -139,7 +140,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseTalks" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 - European Society of Cardiology (2024)  
 - British Cardiovascular Society (2024, Best of Best)  
 - ISMPA (2024), BHF Oxford Symposium (2023)
@@ -155,7 +156,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="collapseOutreach" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
-    <div class="accordion-body" markdown="1">
+    <div class="accordion-body">
 **Treasurer**, Austrian Society – _Oxford (2022–2024)_  
 - Managed budget and cultural programming  
 
@@ -166,7 +167,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 </div> <!-- End Accordion -->
-
+{% endraw %}
 <div class="mt-5"></div>
 
 <hr>

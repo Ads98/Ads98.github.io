@@ -29,6 +29,7 @@ github_username:  Adam
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-scholar
 
 include:
   - _pages

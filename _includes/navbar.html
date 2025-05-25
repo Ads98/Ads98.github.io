@@ -1,47 +1,39 @@
-<!-- 🔗 TODO introucde dark/light mode-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-3 border-bottom">
-    <div class="w-100 d-flex justify-content-between align-items-center px-3 flex-wrap">
-  
-      <!-- 🔗 Left: Social icons -->
-      <div class="d-flex align-items-center gap-3">
-        <a href="mailto:your@email.com" class="text-dark" aria-label="Email"><i class="fas fa-envelope"></i></a>
-        <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" class="text-dark" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
-        <a href="https://scholar.google.com/" class="text-dark" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
-        <a href="https://github.com/yourusername" class="text-dark" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" class="text-dark" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="/cv.pdf" class="text-dark" aria-label="CV"><i class="fas fa-briefcase"></i></a>
-      </div>
-  
+<!-- 🔗 TODO: Introduce dark/light mode -->
+<nav class="navbar navbar-light bg-light px-3 border-bottom">
+  <div class="w-100 d-flex justify-content-between align-items-center px-3 flex-wrap">
 
-    <!-- 🔗 Always-visible navigation links -->
+    <!-- 🔗 Left: Social icons -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="mailto:your@email.com" class="text-dark" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" class="text-dark" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
+      <a href="https://scholar.google.com/" class="text-dark" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
+      <a href="https://github.com/yourusername" class="text-dark" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/yourprofile" class="text-dark" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="/cv.pdf" class="text-dark" aria-label="CV"><i class="fas fa-briefcase"></i></a>
+    </div>
+
+    <!-- 🔗 Right: Always-visible links -->
     <div class="d-flex align-items-center gap-3">
       <a class="nav-link text-dark px-2" href="{{ '/' | relative_url }}">Home</a>
       <a class="nav-link text-dark px-2" href="{{ '/publications/' | relative_url }}">Publications</a>
       <a class="nav-link text-dark px-2" href="{{ '/CV' | relative_url }}">CV</a>
-      <a class="nav-link text-dark px-2" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="nav-link text-dark px-2" href="{{ '/#projects' | relative_url }}">Projects</a>
       <a class="nav-link text-dark px-2" href="{{ '/contact/' | relative_url }}">Contact</a>
+
+      <!-- ☰ Always-visible Toggler -->
+      <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
+  </div>
 
-    <!-- ☰ Toggler (visible on small screens only) -->
-    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExtra"
-      aria-controls="navbarExtra" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- 🔽 Collapsible nav items for smaller screens -->
-    <div class="collapse navbar-collapse justify-content-end mt-2 mt-lg-0" id="navbarExtra">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/repositories/' | relative_url }}">Repositories</a>
-        </li>
-      </ul>
-    </div>
-
+  <!-- 🔽 Collapsible extra links -->
+  <div class="collapse navbar-collapse justify-content-end px-3" id="navbarMenu">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ '/repositories/' | relative_url }}">Repositories</a></li>
+    </ul>
   </div>
 </nav>

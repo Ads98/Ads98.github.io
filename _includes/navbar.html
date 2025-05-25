@@ -1,34 +1,35 @@
-<!-- 🔗 TODO: Introduce dark/light mode -->
 <nav class="navbar navbar-light bg-light px-3 border-bottom">
-  <div class="w-100 d-flex justify-content-between align-items-center px-3 flex-wrap">
-
-    <!-- 🌙 Theme toggle button -->
-    <button id="theme-toggle" class="btn btn-sm btn-outline-secondary ms-3" aria-label="Toggle theme">
-      <i class="fas fa-moon"></i>
-    </button>
+  <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap">
 
     <!-- 🔗 Left: Social icons -->
     <div class="d-flex align-items-center gap-3">
-      <a href="mailto:your@email.com" class="text-dark" aria-label="Email"><i class="fas fa-envelope"></i></a>
-      <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" class="text-dark" aria-label="ORCID"><i class="fab fa-orcid"></i></a>
-      <a href="https://scholar.google.com/" class="text-dark" aria-label="Google Scholar"><i class="fab fa-google"></i></a>
-      <a href="https://github.com/yourusername" class="text-dark" aria-label="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/yourprofile" class="text-dark" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="/cv.pdf" class="text-dark" aria-label="CV"><i class="fas fa-briefcase"></i></a>
+      <a href="mailto:your@email.com" class="text-dark"><i class="fas fa-envelope"></i></a>
+      <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX" class="text-dark"><i class="fab fa-orcid"></i></a>
+      <a href="https://scholar.google.com/" class="text-dark"><i class="fab fa-google"></i></a>
+      <a href="https://github.com/yourusername" class="text-dark"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/yourprofile" class="text-dark"><i class="fab fa-linkedin"></i></a>
+      <a href="/cv.pdf" class="text-dark"><i class="fas fa-briefcase"></i></a>
     </div>
 
-    <!-- 🔗 Right: Always-visible links -->
+    <!-- 🔗 Right: Always-visible links, menu & dark mode toggle -->
     <div class="d-flex align-items-center gap-3">
+
+      <!-- Always visible links -->
       <a class="nav-link text-dark px-2" href="{{ '/' | relative_url }}">Home</a>
       <a class="nav-link text-dark px-2" href="{{ '/publications/' | relative_url }}">Publications</a>
       <a class="nav-link text-dark px-2" href="{{ '/CV' | relative_url }}">CV</a>
       <a class="nav-link text-dark px-2" href="{{ '/#projects' | relative_url }}">Projects</a>
       <a class="nav-link text-dark px-2" href="{{ '/contact/' | relative_url }}">Contact</a>
 
-      <!-- ☰ Always-visible Toggler -->
+      <!-- Menu button (always visible) -->
       <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
         aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 🌙 Theme toggle button (next to menu button) -->
+      <button id="theme-toggle" class="btn btn-sm btn-outline-secondary" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
       </button>
     </div>
   </div>

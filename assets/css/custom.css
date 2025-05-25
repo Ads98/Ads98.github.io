@@ -1,80 +1,89 @@
 .section-subheading {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
 /* 🔵 Enable bullets for Interests */
 .interest-list {
-    list-style-type: disc !important;
-    padding-left: 1.5rem !important;
-    margin-left: 0 !important;
-  }
-  
-  .interest-list li {
-    line-height: 1.3;
-    margin-bottom: 0.3rem;
-  }
-  
-  /* Font Awesome list (Education) */
-  .fa-ul {
-    padding-left: 2em;
-  }
-  
-  .fa-li {
-    left: -1.75em;
-    font-size: 1rem;
-    color: #555;
-  }
-  
-  /* Text styling */
-  .fw-semibold {
-    font-weight: 600;
-  }
-  
-  .text-muted {
-    font-size: 0.9rem;
-    color: #6c757d !important;
-  }
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin-left: 0 !important;
+}
 
-  .navbar.bg-light {
-    background-color: #f8f9fa !important;  /* Bootstrap's default light */
-  }
+.interest-list li {
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+}
 
-  .page-content-below-navbar {
-    padding-top: 120px; /* or adjust until it's perfect */
-  }
+/* Font Awesome list (Education) */
+.fa-ul {
+  padding-left: 2em;
+}
 
-  .projects-section {
-    background-color: #b5b5b5;
-    color: #fff;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-    width: 100vw;
-  }
-  
+.fa-li {
+  left: -1.75em;
+  font-size: 1rem;
+  color: #555;
+}
 
-  .projects-section .card {
-    background-color: #000000;
-    color: #fff;
-    border: none;
-  }
-  
-  /* 🌙 Dark mode overrides */
-  body.dark-mode {
-    background-color: #121212;
-    color: #f8f9fa;
-  }
+/* Text styling */
+.fw-semibold {
+  font-weight: 600;
+}
 
-  body.dark-mode .navbar,
-  body.dark-mode .card,
-  body.dark-mode .projects-section {
-    background-color: #1f1f1f;
-    color: #f8f9fa;
-  }
+.text-muted {
+  font-size: 0.9rem;
+  color: #6c757d !important;
+}
 
-  body.dark-mode a {
-    color: #9dc1ff;
-  }
+.navbar.bg-light {
+  background-color: #f8f9fa !important; /* Bootstrap's default light */
+}
+
+.page-content-below-navbar {
+  padding-top: 120px;
+}
+
+/* ✅ Projects section (light mode) */
+.projects-section {
+  background-color: #cdcdcd;
+  color: #000; /* readable text in light mode */
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100vw;
+}
+
+.projects-section .card {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+}
+
+/* 🌙 Dark mode overrides */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .card,
+body.dark-mode .projects-section {
+  background-color: #1f1f1f !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .projects-section .card {
+  background-color: #2a2a2a !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode a {
+  color: #9dc1ff !important;
+}
+
+body.dark-mode .text-muted {
+  color: #bbbbbb !important;
+}

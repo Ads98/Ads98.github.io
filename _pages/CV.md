@@ -36,97 +36,99 @@ Below is a summary of my academic background, research experience, and technical
 
 <!-- 💼 Professional Experience -->
 <div class="accordion-item">
-  <h2 class="accordion-header" id="expHeading">
-    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#expCollapse" aria-expanded="true" aria-controls="expCollapse">
+  <h2 class="accordion-header" id="headingExp">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp">
       💼 Professional Experience
     </button>
   </h2>
-  <div id="expCollapse" class="accordion-collapse collapse show" aria-labelledby="expHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      <strong>PhD Researcher in Health Data Science:</strong> _University of Oxford, Oct 2020 – May 2025_  
-      - Designed scalable deep learning pipelines for medical device data such as ECG  
-      - Improved patient stratification over NHS tools by 17%  
-      - Presented at ESC, BSC, ICAMPAM  
+  <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
 
-      <br><strong>Life & Health R&D Analyst (Intern):</strong> _Swiss Re, Jun – Aug 2024_  
-      - Conducted mortality forecasting on 6M+ individuals using LSTM and ARIMA  
-      - Applied causal inference (G-computation)  
-      - Authored regulatory white papers  
+**PhD Researcher in Health Data Science:** _University of Oxford, Oct 2020 – May 2025_  
+- Designed scalable deep learning pipelines for ECG data  
+- Achieved 17% improvement over NHS tools  
+- Presented at ESC, BSC, and ICAMPAM
 
-      <br><strong>Software Application Engineer (Intern):</strong> _Intel Corporation, Jul 2018 – Aug 2019_  
-      - Optimised financial algorithms (e.g., Black-Scholes)  
-      - Delivered ML motion detection pipelines  
+**Life & Health R&D Analyst (Intern):** _Swiss Re, Jun – Aug 2024_  
+- Mortality forecasting on 6M+ individuals using LSTM, ARIMA  
+- Applied G-computation to assess mortality impact  
+- Authored regulatory-focused technical reports
+
+**Software Application Engineer (Intern):** _Intel, Jul 2018 – Aug 2019_  
+- Consulted for financial firms on HPC tools  
+- Optimized Black-Scholes and Monte Carlo algorithms  
+- Deployed ML solutions to wearables
+
     </div>
   </div>
+</div>>
 </div>
 
 <!-- 🎓 Education -->
 <div class="accordion-item">
-  <h2 class="accordion-header" id="eduHeading">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduCollapse" aria-expanded="false" aria-controls="eduCollapse">
+  <h2 class="accordion-header" id="headingEdu">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu">
       🎓 Education
     </button>
   </h2>
-  <div id="eduCollapse" class="accordion-collapse collapse" aria-labelledby="eduHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      <strong>PhD in Health Data Science (EPSRC CDT):</strong> _Oxford, 2020 – 2025_  
-      - Full scholarship, ~£100,000 stipend  
+  <div id="collapseEdu" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
 
-      <br><strong>BSc (Hons) Computer Science:</strong> _Nottingham, 2016 – 2020_  
-      - First Class Honours (85%), Top of Cohort  
+**PhD in Health Data Science (EPSRC CDT)**  
+_University of Oxford, Oct 2020 – May 2025_  
+- Fully funded scholarship with enhanced stipend (~£100k)
+
+**BSc (Hons) Computer Science**  
+_University of Nottingham, Sep 2016 – Jul 2020_  
+- First Class Honours, ranked 1st of 180
+
     </div>
   </div>
 </div>
 
 <!-- 🛠️ Technical Skills -->
 <div class="accordion-item">
-  <h2 class="accordion-header" id="techHeading">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#techCollapse" aria-expanded="false" aria-controls="techCollapse">
+  <h2 class="accordion-header" id="headingSkills">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills">
       🛠️ Technical Skills
     </button>
   </h2>
-  <div id="techCollapse" class="accordion-collapse collapse" aria-labelledby="techHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      - **Languages & Frameworks:** Python, R, SQL, C, Java, Haskell  
-      - **ML/DL:** PyTorch, TensorFlow, SHAP  
-      - **MLOps:** ClearML, Git, Docker  
-      - **Data:** Pandas, NumPy, Spark  
+  <div id="collapseSkills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
+
+- **Languages**: Python, R, SQL, C, Java, Haskell  
+- **ML/DL**: PyTorch, TensorFlow, scikit-learn  
+- **Explainability**: SHAP, saliency  
+- **Cloud & MLOps**: ClearML, Git, AWS, Palantir  
+- **Data**: Pandas, NumPy, Spark  
+- **Engineering**: Fourier transforms, CNNs, contrastive learning  
+- **Communication**: Scientific writing, cross-functional collaboration
+
     </div>
   </div>
 </div>
 
 <!-- 📚 Publications -->
 <div class="accordion-item">
-  <h2 class="accordion-header" id="pubsHeading">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pubsCollapse" aria-expanded="false" aria-controls="pubsCollapse">
+  <h2 class="accordion-header" id="headingPubs">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePubs">
       📚 Publications
     </button>
   </h2>
-  <div id="pubsCollapse" class="accordion-collapse collapse" aria-labelledby="pubsHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      - Sturge, Harper et al. [_Step count and sleep for mortality prediction_](https://doi.org/10.1101/2025.04.03.25325101)  
-      - *Swiss Re Institute*. [_Alzheimer’s disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
+  <div id="collapsePubs" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
+
+**First-author Manuscripts**  
+- Sturge, Harper et al. [_Step count & sleep activity improve all-cause mortality prediction_](https://doi.org/10.1101/2025.04.03.25325101)
+
+**Industry Reports**  
+- *Swiss Re Institute*. [_The landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
+
     </div>
   </div>
 </div>
 
-<!-- 🏆 Awards -->
-<div class="accordion-item">
-  <h2 class="accordion-header" id="awardsHeading">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#awardsCollapse" aria-expanded="false" aria-controls="awardsCollapse">
-      🏆 Awards
-    </button>
-  </h2>
-  <div id="awardsCollapse" class="accordion-collapse collapse" aria-labelledby="awardsHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      - EPSRC Studentship (2020–24)  
-      - Nottingham Top Student Award (2020)  
-      - Academic Excellence Awards (2017, 2018)
-    </div>
-  </div>
-</div>
-
-<!-- 🎤 Talks -->
+<!-- 🎤 Invited Talks -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="talksHeading">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talksCollapse" aria-expanded="false" aria-controls="talksCollapse">
@@ -134,7 +136,7 @@ Below is a summary of my academic background, research experience, and technical
     </button>
   </h2>
   <div id="talksCollapse" class="accordion-collapse collapse" aria-labelledby="talksHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
+    <div class="accordion-body" markdown="1">
       - ESC Congress (Aug 2024)  
       - BCS Annual (Jun 2024, x2 Best of the Best)  
       - ISMPA (Jun 2024)  
@@ -143,21 +145,47 @@ Below is a summary of my academic background, research experience, and technical
   </div>
 </div>
 
-<!-- 🤝 Outreach -->
+
+<!-- 🏆 Awards -->
 <div class="accordion-item">
-  <h2 class="accordion-header" id="outreachHeading">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#outreachCollapse" aria-expanded="false" aria-controls="outreachCollapse">
-      🤝 Outreach & Leadership
+  <h2 class="accordion-header" id="headingAwards">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
+      🏆 Awards
     </button>
   </h2>
-  <div id="outreachCollapse" class="accordion-collapse collapse" aria-labelledby="outreachHeading" data-bs-parent="#cvAccordion">
-    <div class="accordion-body">
-      - Treasurer, Austrian Society (Oxford, 2022–24)  
-      - STEM Lead, Intel Inspire (2018–19)
+  <div id="collapseAwards" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
+
+- **EPSRC CDT Studentship** – Full scholarship, 2020–2024  
+- **Top Student Award**, University of Nottingham, 2020  
+- **Undergraduate Achievement Awards**, 2017 & 2018
+
     </div>
   </div>
 </div>
 
+
+<!-- 🤝 Charity & Outreach -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingOutreach">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutreach">
+      🤝 Outreach & Leadership
+    </button>
+  </h2>
+  <div id="collapseOutreach" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+    <div class="accordion-body" markdown="1">
+
+**Treasurer**, Austrian Society, University of Oxford  
+_Oct 2022 – Oct 2024_  
+- Managed society budget and led event coordination
+
+**Technical Lead**, Intel STEM Committee  
+_Jul 2018 – Aug 2019_  
+- Reached 1,000+ students via interactive AI/STEM workshops
+
+    </div>
+  </div>
+</div>
 </div>
 
 ---

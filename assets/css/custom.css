@@ -153,3 +153,8 @@ body.dark-mode .text-muted {
   margin-bottom: 1rem;
   font-size: 0.95rem;
 }
+
+.cv-section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}

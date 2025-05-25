@@ -44,7 +44,7 @@ Below is a summary of my academic background, research experience, and technical
 - Applied causal inference methods (e.g., G-computation) to evaluate mortality differences between insured and uninsured populations.  
 - Authored technical reports on medical innovation and regulatory implications for life & health insurance.
 
-**Software Application Engineer (Intern) **_Intel Corporation, July 2018 – August 2019_**
+**Software Application Engineer (Intern): _Intel Corporation, July 2018 – August 2019_**
 - Provided software consultation for financial services firms, focusing on economic and financial applications.  
 - Optimized quantitative algorithms (e.g., Black-Scholes, Monte Carlo) for real-time trading environments.  
 - Deployed ML solutions for real-time motion data processing on wearable devices.
@@ -96,7 +96,7 @@ Below is a summary of my academic background, research experience, and technical
 
 - **European Society of Cardiology Congress** — August 2024  
 - **British Cardiovascular Society Annual Conference** — June 2024  
-    -_Best of the Best oral presentation award (x2)_
+    - _Best of the Best oral presentation award (x2)_
 
 - **International Society for the Measurement of Physical Activity** — June 2024  
 - **BHF Centre for Research Excellence Symposium** — November 2023

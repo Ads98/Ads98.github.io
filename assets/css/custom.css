@@ -1,0 +1,242 @@
+.section-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* ✅ Biography text size adjustment */
+.bio-text {
+  font-size: 1.15rem; /* Increase as desired */
+  line-height: 1.7;
+}
+/* 🔵 Enable bullets for Interests */
+.interest-list {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin-left: 0 !important;
+}
+
+.interest-list li {
+  line-height: 1.3;
+  margin-bottom: 0.3rem;
+}
+
+/* Font Awesome list (Education) */
+.fa-ul {
+  padding-left: 2em;
+}
+
+.fa-li {
+  left: -1.75em;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Text styling */
+.fw-semibold {
+  font-weight: 600;
+}
+
+.text-muted {
+  font-size: 0.9rem;
+  color: #6c757d !important;
+}
+
+/* ✅ Light mode navbar */
+body:not(.dark-mode) .navbar {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+/* ✅ Dark mode navbar */
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+  color: #f8f9fa !important;
+}
+
+/* 🔽 Navbar toggler icon (☰) – theme aware with !important */
+body:not(.dark-mode) .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280,0,0,0.85%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E") !important;
+}
+
+body.dark-mode .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255,255,255,0.85%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E") !important;
+}
+
+/* ✅ Padding for content below navbar */
+.page-content-below-navbar {
+  padding-top: 120px;
+}
+
+/* ✅ Projects section (light mode) */
+.projects-section {
+  background-color: #fafafa;
+  color: #000;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100vw;
+}
+
+/* ✅ Card styles for light mode */
+.projects-section .card {
+  background-color: #ffffff;
+  color: #ffffff; /* ensure default text is white */
+  border: none;
+}
+
+.projects-section .card-title {
+  color: #0d6efd !important; /* Blue heading */
+}
+
+.projects-section .card-text {
+  color: #000000 !important; /* Black paragraph text */
+}
+
+/* ✅ Card styles for dark mode */
+body.dark-mode .projects-section .card {
+  background-color: #2a2a2a !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .projects-section .card-title {
+  color: #80bfff !important; /* Light blue title */
+}
+
+body.dark-mode .projects-section .card-text {
+  color: #f8f9fa !important; /* Light body text */
+}
+
+
+
+.projects-section h2 {
+  color: #000;
+}
+
+body.dark-mode .projects-section h2 {
+  color: #f8f9fa;
+}
+/* 🌙 Dark mode overrides */
+/* ✅ Smooth transitions for theme changes */
+body, .navbar, .projects-section, .card, .text-muted {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .navbar,
+body.dark-mode .card,
+body.dark-mode .projects-section {
+  background-color: #1f1f1f !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .projects-section .card {
+  background-color: #2a2a2a !important;
+  color: #f8f9fa !important;
+}
+
+body.dark-mode a {
+  color: #9dc1ff !important;
+}
+
+body.dark-mode .text-muted {
+  color: #bbbbbb !important;
+}
+
+
+.cv-tech-summary .col-md-3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+.cv-tech-summary small {
+  font-size: 1.5rem; /* or try 1.05rem or 1.1rem */
+}
+
+
+
+/* 📝 Extra spacing between sections in CV page */
+.cv-page hr {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.cv-page h2,
+.cv-page h4 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv-page p{
+  font-size: 1.75rem;
+}
+
+.cv-page li {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+
+/* Accordion box border and background sync */
+.accordion-item {
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+  color: #000000;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+/* Header styles */
+.accordion-button {
+  font-size: 2rem; 
+  font-weight: 600;
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+/* Sync with dark mode */
+body.dark-mode .accordion-item {
+  background-color: #1f1f1f;
+  color: #f8f9fa;
+  border-color: #444;
+}
+
+body.dark-mode .accordion-button {
+  background-color: #2a2a2a;
+  color: #f8f9fa;
+}
+
+/* Ensure the button wrapper is relative */
+.accordion-header {
+  position: relative;
+}
+
+/* Chevron arrow styling */
+.accordion-button .chevron {
+  position: absolute;
+  right: 1.25rem; /* aligns with padding of accordion button */
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease;
+}
+
+/* Default arrow down */
+.accordion-button .chevron::after {
+  content: "▼";
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate when expanded */
+.accordion-button:not(.collapsed) .chevron::after {
+  transform: rotate(180deg);
+}
+
+.cv-page {
+  zoom: 0.75;
+}

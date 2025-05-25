@@ -44,18 +44,24 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-**PhD Researcher in Health Data Science** – _University of Oxford, Oct 2020 – May 2025_  
-- Built deep learning pipelines for ECG-based cardiovascular risk  
-- Outperformed NHS tools by up to 17% in targeting preventive care  
-- Presented at ESC, ICAMPAM, BCS  
+      <p><strong>PhD Researcher in Health Data Science</strong> – <em>University of Oxford, Oct 2020 – May 2025</em></p>
+      <ul>
+        <li>Built deep learning pipelines for ECG-based cardiovascular risk</li>
+        <li>Outperformed NHS tools by up to 17% in targeting preventive care</li>
+        <li>Presented at ESC, ICAMPAM, BCS</li>
+      </ul>
 
-**Intern – Swiss Re, Life & Health R&D** – _Jun–Aug 2024_  
-- LSTM + ARIMA mortality forecasts on 6M individuals  
-- Authored internal reports on mortality trends & regulatory impact  
+      <p><strong>Intern – Swiss Re, Life & Health R&D</strong> – <em>Jun–Aug 2024</em></p>
+      <ul>
+        <li>LSTM + ARIMA mortality forecasts on 6M individuals</li>
+        <li>Authored internal reports on mortality trends & regulatory impact</li>
+      </ul>
 
-**Software Engineer Intern – Intel Corporation** – _Jul 2018 – Aug 2019_  
-- Optimised financial algorithms (Black-Scholes, Monte Carlo)  
-- Deployed wearable ML models; led STEM outreach events
+      <p><strong>Software Engineer Intern – Intel Corporation</strong> – <em>Jul 2018 – Aug 2019</em></p>
+      <ul>
+        <li>Optimised financial algorithms (Black-Scholes, Monte Carlo)</li>
+        <li>Deployed wearable ML models; led STEM outreach events</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -69,13 +75,17 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseEdu" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-**PhD, Health Data Science (EPSRC CDT)** – _University of Oxford_  
-- Fully funded with ~£100k studentship  
-- Research on wearable sensor data and cardiovascular risk  
+      <p><strong>PhD, Health Data Science (EPSRC CDT)</strong> – <em>University of Oxford</em></p>
+      <ul>
+        <li>Fully funded with ~£100k studentship</li>
+        <li>Research on wearable sensor data and cardiovascular risk</li>
+      </ul>
 
-**BSc (Hons), Computer Science** – _University of Nottingham_  
-- First Class Honours (Ranked 1st of 180)  
-- Awarded Top Student Prize
+      <p><strong>BSc (Hons), Computer Science</strong> – <em>University of Nottingham</em></p>
+      <ul>
+        <li>First Class Honours (Ranked 1st of 180)</li>
+        <li>Awarded Top Student Prize</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -89,11 +99,13 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseSkills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-- **Languages**: Python, R, SQL, C, Java, Haskell  
-- **ML/DL**: PyTorch, TensorFlow, scikit-learn, SHAP  
-- **Cloud/MLOps**: Docker, Git, ClearML, AWS  
-- **Data Tools**: Pandas, NumPy, Spark  
-- **Engineering**: Fourier transforms, CNNs, contrastive learning
+      <ul>
+        <li><strong>Languages</strong>: Python, R, SQL, C, Java, Haskell</li>
+        <li><strong>ML/DL</strong>: PyTorch, TensorFlow, scikit-learn, SHAP</li>
+        <li><strong>Cloud/MLOps</strong>: Docker, Git, ClearML, AWS</li>
+        <li><strong>Data Tools</strong>: Pandas, NumPy, Spark</li>
+        <li><strong>Engineering</strong>: Fourier transforms, CNNs, contrastive learning</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -107,11 +119,15 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapsePubs" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-**First-author manuscripts**  
-- Sturge, Harper et al. [_Added value of step count & sleep in mortality prediction_](https://doi.org/10.1101/2025.04.03.25325101)  
+      <p><strong>First-author manuscripts</strong></p>
+      <ul>
+        <li>Sturge, Harper et al. <a href="https://doi.org/10.1101/2025.04.03.25325101">Added value of step count & sleep in mortality prediction</a></li>
+      </ul>
 
-**Industry Reports**  
-- *Swiss Re Institute*. [_Alzheimer’s and Life Insurance Risk_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
+      <p><strong>Industry Reports</strong></p>
+      <ul>
+        <li><em>Swiss Re Institute</em>. <a href="https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html">Alzheimer’s and Life Insurance Risk</a></li>
+      </ul>
     </div>
   </div>
 </div>
@@ -125,9 +141,11 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseAwards" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-- **EPSRC CDT Studentship** – Full funding, 2020–2024  
-- **Top Student Award**, Nottingham – 2020  
-- **Exceptional Achievement Awards** – 2017 & 2018
+      <ul>
+        <li><strong>EPSRC CDT Studentship</strong> – Full funding, 2020–2024</li>
+        <li><strong>Top Student Award</strong>, Nottingham – 2020</li>
+        <li><strong>Exceptional Achievement Awards</strong> – 2017 & 2018</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -141,9 +159,11 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseTalks" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-- European Society of Cardiology (2024)  
-- British Cardiovascular Society (2024, Best of Best)  
-- ISMPA (2024), BHF Oxford Symposium (2023)
+      <ul>
+        <li>European Society of Cardiology (2024)</li>
+        <li>British Cardiovascular Society (2024, Best of Best)</li>
+        <li>ISMPA (2024), BHF Oxford Symposium (2023)</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -157,17 +177,22 @@ Below is a summary of my academic background, research experience, and technical
   </h2>
   <div id="collapseOutreach" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
     <div class="accordion-body">
-**Treasurer**, Austrian Society – _Oxford (2022–2024)_  
-- Managed budget and cultural programming  
+      <p><strong>Treasurer, Austrian Society</strong> – <em>Oxford (2022–2024)</em></p>
+      <ul>
+        <li>Managed budget and cultural programming</li>
+      </ul>
 
-**STEM Lead**, Intel – _2018–2019_  
-- Delivered AI/STEM workshops to 1,000+ students
+      <p><strong>STEM Lead, Intel</strong> – <em>2018–2019</em></p>
+      <ul>
+        <li>Delivered AI/STEM workshops to 1,000+ students</li>
+      </ul>
     </div>
   </div>
 </div>
 
 </div> <!-- End Accordion -->
 {% endraw %}
+
 <div class="mt-5"></div>
 
 <hr>

@@ -117,6 +117,7 @@ Below is a summary of my academic background, research experience, and technical
 
 
 
+<hr>
 
 ## 🤝 Outreach & Leadership
 

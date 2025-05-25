@@ -62,3 +62,19 @@
     border: none;
   }
   
+  /* 🌙 Dark mode overrides */
+  body.dark-mode {
+    background-color: #121212;
+    color: #f8f9fa;
+  }
+
+  body.dark-mode .navbar,
+  body.dark-mode .card,
+  body.dark-mode .projects-section {
+    background-color: #1f1f1f;
+    color: #f8f9fa;
+  }
+
+  body.dark-mode a {
+    color: #9dc1ff;
+  }

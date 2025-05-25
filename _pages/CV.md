@@ -59,7 +59,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-collapse -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
+<div class="accordion" id="cvAccordion">
 <!-- 🎓 Education -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingEdu">
@@ -79,8 +81,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
-
+<div class="accordion" id="cvAccordion">
 <!-- 🛠️ Technical Skills -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingSkills">
@@ -98,7 +101,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
+<div class="accordion" id="cvAccordion">
 <!-- 📚 Publications -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingPubs">
@@ -116,8 +121,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
-
+<div class="accordion" id="cvAccordion">
 <!-- 🏆 Awards -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingAwards">
@@ -133,8 +139,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
-
+<div class="accordion" id="cvAccordion">
 <!-- 🎤 Invited Talks -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingTalks">
@@ -150,7 +157,9 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
+</div> <!-- accordion -->
 
+<div class="accordion" id="cvAccordion">
 <!-- 🤝 Outreach -->
 <div class="accordion-item">
   <h2 class="accordion-header" id="headingOutreach">
@@ -168,9 +177,6 @@ Below is a summary of my academic background, research experience, and technical
     </div> <!-- accordion-body -->
   </div> <!-- accordion-box -->
 </div> <!-- accordion-item -->
-
-
-
 </div>  <!-- accordion -->
 
 

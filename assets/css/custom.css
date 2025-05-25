@@ -207,3 +207,15 @@ body.dark-mode .accordion-button {
   background-color: #2a2a2a;
   color: #f8f9fa;
 }
+
+/* 🔽 Chevron arrow inside accordion button */
+.accordion-button .chevron::after {
+  content: "▼";
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+/* 🔼 Rotate when expanded */
+.accordion-button:not(.collapsed) .chevron::after {
+  transform: rotate(180deg);
+}

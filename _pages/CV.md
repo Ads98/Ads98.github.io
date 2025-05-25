@@ -38,8 +38,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 💼 Professional Experience -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingExp">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
       💼 Professional Experience
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -47,14 +48,14 @@ Below is a summary of my academic background, research experience, and technical
       <p><strong>PhD Researcher in Health Data Science</strong> – <em>University of Oxford, Oct 2020 – May 2025</em></p>
       <ul>
         <li>Built deep learning pipelines for ECG-based cardiovascular risk</li>
-        <li>Outperformed NHS tools by up to 17% in targeting preventive care</li>
+        <li>Outperformed NHS tools by up to 17%</li>
         <li>Presented at ESC, ICAMPAM, BCS</li>
       </ul>
 
       <p><strong>Intern – Swiss Re, Life & Health R&D</strong> – <em>Jun–Aug 2024</em></p>
       <ul>
         <li>LSTM + ARIMA mortality forecasts on 6M individuals</li>
-        <li>Authored internal reports on mortality trends & regulatory impact</li>
+        <li>Internal reports on mortality trends & regulatory impact</li>
       </ul>
 
       <p><strong>Software Engineer Intern – Intel Corporation</strong> – <em>Jul 2018 – Aug 2019</em></p>
@@ -69,8 +70,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🎓 Education -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingEdu">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu">
       🎓 Education
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseEdu" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -93,8 +95,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🛠️ Technical Skills -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingSkills">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills">
       🛠️ Technical Skills
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseSkills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -113,8 +116,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 📚 Publications -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingPubs">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePubs">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePubs">
       📚 Publications
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapsePubs" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -135,8 +139,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🏆 Awards -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingAwards">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
       🏆 Awards
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseAwards" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -153,8 +158,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🎤 Invited Talks -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingTalks">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTalks">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTalks">
       🎤 Invited Talks
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseTalks" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
@@ -171,8 +177,9 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 🤝 Outreach -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingOutreach">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutreach">
+    <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutreach">
       🤝 Outreach & Leadership
+      <span class="chevron ms-auto"></span>
     </button>
   </h2>
   <div id="collapseOutreach" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">

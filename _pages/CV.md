@@ -8,9 +8,9 @@ permalink: /CV/
 
 Below is a summary of my academic background, research experience, and technical skills. A downloadable PDF version of my CV is available [here](/assets/files/CV.pdf).
 
----
+<hr>
 
-<div class="cv-section">
+
 <h2>Technical Summary</h2>
 
 <h4>🧑‍💻 Programming Languages</h4>
@@ -26,13 +26,13 @@ Below is a summary of my academic background, research experience, and technical
   <div class="col-md-3"><strong>MLOps</strong><br/><small>Docker, Git, ClearML</small></div>
   <div class="col-md-3"><strong>Other</strong><br/><small>AWS, Palantir Foundry, Jupyter, Anaconda, RMarkdown, LaTeX</small></div>
 </div>
-</div>
 
----
 
-<div class="cv-section">
+<hr>
 
-## 💼 Professional Experience
+
+
+## 💼 Professional  Experience
 
 **PhD Researcher in Health Data Science**  
 _University of Oxford, October 2020 – May 2025_  
@@ -52,13 +52,12 @@ _Intel Corporation, July 2018 – August 2019_
 - Optimized quantitative algorithms (e.g., Black-Scholes, Monte Carlo) for real-time trading environments.  
 - Deployed ML solutions for real-time motion data processing on wearable devices.
 
-</div>
 
----
 
-<div class="cv-section">
 
+<hr>
 ## 🎓 Education
+
 
 **PhD in Health Data Science (EPSRC CDT)**  
 _University of Oxford, October 2020 – May 2025_  
@@ -66,14 +65,11 @@ _University of Oxford, October 2020 – May 2025_
 
 **BSc (Hons) in Computer Science**  
 _University of Nottingham, September 2016 – July 2020_  
-- First Class Honours, 85% — ranked 1st of 180 students; awarded School of Computer Science Top Student Award.
+- First Class Honours, 85% — ranked 1st of 180 students; awarded School of Computer Science Top Student Award.  
 
-</div>
 
----
 
-<div class="cv-section">
-
+<hr>
 ## 🛠️ Technical Skills
 
 - **Programming Languages & Frameworks**: Python, R, SQL, C, Java, Haskell  
@@ -87,11 +83,8 @@ _University of Nottingham, September 2016 – July 2020_
 
 - **Communication & Stakeholder Engagement**: Presented findings at major international conferences to scientific and commercial audiences.
 
-</div>
+<hr>
 
----
-
-<div class="cv-section">
 
 ## 📚 Publications
 
@@ -102,12 +95,9 @@ _University of Nottingham, September 2016 – July 2020_
 **Industry Reports**  
 - *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/institute/research/topics-and-risk-dialogues/health-and-aging/alzheimers-disease-insurance.html)
 
-</div>
 
----
 
-<div class="cv-section">
-
+<hr>
 ## 🏆 Awards
 
 **EPSRC Health Data Science CDT Studentship**  
@@ -122,11 +112,9 @@ _July 2020_
 _July 2017, July 2018_  
 - Awarded for ranking in top 5 of cohort for academic achievement.
 
-</div>
 
----
 
-<div class="cv-section">
+<hr>
 
 ## 🎤 Invited Talks
 
@@ -137,11 +125,7 @@ _July 2017, July 2018_
 - **International Society for the Measurement of Physical Activity** — June 2024  
 - **BHF Centre for Research Excellence Symposium** — November 2023
 
-</div>
-
----
-
-<div class="cv-section">
+<hr>
 
 ## 🤝 Outreach & Leadership
 
@@ -152,15 +136,8 @@ _October 2022 – October 2024_
 **Technical Lead, Intel Inspire STEM Committee**  
 _July 2018 – August 2019_  
 - Led outreach reaching 1,000+ students annually, delivering workshops in AI, hardware, and programming.
-
-</div>
-
----
-
-<div class="cv-section">
-
+<hr>
 ## 📄 Download
 
 - [Download CV (PDF)](/assets/files/CV.pdf)
 
-</div>

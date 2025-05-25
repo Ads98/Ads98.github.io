@@ -79,8 +79,19 @@ body.dark-mode .navbar-toggler-icon {
   color: #fff;
   border: none;
 }
+.projects-section h2 {
+  color: #000;
+}
 
+body.dark-mode .projects-section h2 {
+  color: #f8f9fa;
+}
 /* 🌙 Dark mode overrides */
+/* ✅ Smooth transitions for theme changes */
+body, .navbar, .projects-section, .card, .text-muted {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 body.dark-mode {
   background-color: #121212 !important;
   color: #f8f9fa !important;

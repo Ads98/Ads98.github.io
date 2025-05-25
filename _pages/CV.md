@@ -6,7 +6,7 @@ permalink: /CV/
 
 # Place holder CV full CV coming soon!
 
-Below is a summary of my academic background, research experience, and technical skills. A downloadable PDF version of my CV is available [here](/cv.pdf).
+Below is a summary of my academic background, research experience, and technical skills. A downloadable PDF version of my CV is available [here](/assets/files/CV.pdf).
 
 ---
 

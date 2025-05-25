@@ -92,6 +92,19 @@ _University of Nottingham, September 2016 – July 2020_
 - *Swiss Re Institute*. [_The current landscape of Alzheimer's disease in Life & Health Insurance_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
 
 
+<hr>
+
+## 🎤 Invited Talks
+
+- **European Society of Cardiology Congress** — August 2024  
+- **British Cardiovascular Society Annual Conference** — June 2024  
+  _Best of the Best oral presentation award (x2)_
+
+- **International Society for the Measurement of Physical Activity** — June 2024  
+- **BHF Centre for Research Excellence Symposium** — November 2023
+
+<hr>
+
 
 <hr>
 ## 🏆 Awards
@@ -110,18 +123,6 @@ _July 2017, July 2018_
 
 
 
-<hr>
-
-## 🎤 Invited Talks
-
-- **European Society of Cardiology Congress** — August 2024  
-- **British Cardiovascular Society Annual Conference** — June 2024  
-  _Best of the Best oral presentation award (x2)_
-
-- **International Society for the Measurement of Physical Activity** — June 2024  
-- **BHF Centre for Research Excellence Symposium** — November 2023
-
-<hr>
 
 ## 🤝 Outreach & Leadership
 

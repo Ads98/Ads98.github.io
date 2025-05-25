@@ -74,11 +74,29 @@ body.dark-mode .navbar-toggler-icon {
   width: 100vw;
 }
 
+/* ✅ Card styles for light mode */
 .projects-section .card {
-  background-color: #000000;
-  color: #fff;
+  background-color: #ffffff; /* white card */
+  color: #000000; /* black text */
   border: none;
 }
+
+
+.projects-section .card-title {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
+/* ✅ Card styles for dark mode */
+body.dark-mode .projects-section .card {
+  background-color: #2a2a2a !important; /* dark gray */
+  color: #f8f9fa !important; /* white text */
+}
+
+body.dark-mode .projects-section .card-title {
+  color: #80bfff !important; /* light blue */
+}
+
+
 .projects-section h2 {
   color: #000;
 }

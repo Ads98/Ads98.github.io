@@ -66,26 +66,26 @@ I find that my greatest joys in work come from research — diving into complex 
 
       <!-- ECG Survival Project -->
       <div class="col-md-5 col-lg-4 mb-4">
-        <div class="card bg-secondary text-light shadow-sm h-100">
+        <div class="card shadow-sm h-100">
           <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project" />
           <div class="card-body">
             <h5 class="card-title">ECG Survival</h5>
             <p class="card-text">Developing deep learning models using ECG data to predict long-term cardiovascular outcomes.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Details</a>
-            <a href="#" class="btn btn-outline-light btn-sm">Code</a>
+            <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
           </div>
         </div>
       </div>
 
       <!-- LLMs Project -->
       <div class="col-md-5 col-lg-4 mb-4">
-        <div class="card bg-secondary text-light shadow-sm h-100">
+        <div class="card shadow-sm h-100">
           <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project" />
           <div class="card-body">
             <h5 class="card-title">LLMs for Biomedical Text</h5>
             <p class="card-text">Exploring the use of large language models for summarising biomedical literature and structuring evidence.</p>
-            <a href="#" class="btn btn-outline-light btn-sm">Details</a>
-            <a href="#" class="btn btn-outline-light btn-sm">Code</a>
+            <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
+            <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
           </div>
         </div>
       </div>

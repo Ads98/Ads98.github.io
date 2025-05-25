@@ -236,3 +236,7 @@ body.dark-mode .accordion-button {
 .accordion-button:not(.collapsed) .chevron::after {
   transform: rotate(180deg);
 }
+
+.cv-page {
+  zoom: 0.75;
+}

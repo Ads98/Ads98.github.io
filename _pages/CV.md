@@ -64,12 +64,12 @@ Below is a summary of my academic background, research experience, and technical
 <!-- 💼 Professional Experience -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingExp">
-     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="true" aria-controls="collapseExp">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="true" aria-controls="collapseExp">
       💼 Professional Experience
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseExp" class="accordion-collapse collapse show" data-bs-parent="#cvAccordion">
+  <div id="collapseExp" class="accordion-collapse collapse show">
     <div class="accordion-body">
       <p><strong>PhD Researcher in Health Data Science</strong> – <em>University of Oxford, Oct 2020 – May 2025</em></p>
       <ul>
@@ -101,7 +101,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseEdu" class="accordion-collapse collapse show" data-bs-parent="#cvAccordion">
+  <div id="collapseEdu" class="accordion-collapse collapse show">
     <div class="accordion-body">
       <p><strong>PhD, Health Data Science (EPSRC CDT)</strong> – <em>University of Oxford</em></p>
       <ul>
@@ -126,7 +126,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseSkills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseSkills" class="accordion-collapse collapse">
     <div class="accordion-body">
       <ul>
         <li><strong>Languages</strong>: Python, R, SQL, C, Java, Haskell</li>
@@ -147,7 +147,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapsePubs" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapsePubs" class="accordion-collapse collapse">
     <div class="accordion-body">
       <p><strong>First-author manuscripts</strong></p>
       <ul>
@@ -170,7 +170,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseAwards" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseAwards" class="accordion-collapse collapse">
     <div class="accordion-body">
       <ul>
         <li><strong>EPSRC CDT Studentship</strong> – Full funding, 2020–2024</li>
@@ -189,7 +189,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseTalks" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseTalks" class="accordion-collapse collapse">
     <div class="accordion-body">
       <ul>
         <li>European Society of Cardiology (2024)</li>
@@ -208,7 +208,7 @@ Below is a summary of my academic background, research experience, and technical
       <span class="chevron"></span>
     </button>
   </h2>
-  <div id="collapseOutreach" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseOutreach" class="accordion-collapse collapse">
     <div class="accordion-body">
       <p><strong>Treasurer, Austrian Society</strong> – <em>Oxford (2022–2024)</em></p>
       <ul>

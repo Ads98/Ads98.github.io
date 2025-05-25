@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll Site with Scholar
 on:
   push:
     branches:
-      - main  # or 'master' if you're using that
+      - gh-pages  # or 'master' if you're using that
 
 jobs:
   build:

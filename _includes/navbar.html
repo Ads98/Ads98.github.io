@@ -12,31 +12,27 @@
         <a href="/cv.pdf" class="text-dark" aria-label="CV"><i class="fas fa-briefcase"></i></a>
       </div>
   
-      <!-- 🔗 Right: Contact and toggler -->
-      <div class="d-flex align-items-center gap-3">
-        <a class="nav-link text-dark px-2" href="{{ '/' | relative_url }}">Home</a>
-        <a class="nav-link text-dark px-2" href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a class="nav-link text-dark px-2" href="{{ '/CV' | relative_url }}">CV</a>
-        <a class="nav-link text-dark px-2" href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="{{ '/contact/' | relative_url }}" class="nav-link text-dark px-2">Contact</a>
 
-  
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
-          aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+    <!-- 🔗 Always-visible navigation links -->
+    <div class="d-flex align-items-center gap-3">
+      <a class="nav-link text-dark px-2" href="{{ '/' | relative_url }}">Home</a>
+      <a class="nav-link text-dark px-2" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="nav-link text-dark px-2" href="{{ '/CV' | relative_url }}">CV</a>
+      <a class="nav-link text-dark px-2" href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a class="nav-link text-dark px-2" href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
-  
-    <!-- 🔽 Collapsible links -->
-    <div class="collapse navbar-collapse justify-content-end px-3" id="navbarMain">
+
+    <!-- ☰ Toggler (visible on small screens only) -->
+    <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarExtra"
+      aria-controls="navbarExtra" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 🔽 Collapsible nav items for smaller screens -->
+    <div class="collapse navbar-collapse justify-content-end mt-2 mt-lg-0" id="navbarExtra">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="{{ '/' | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
@@ -46,4 +42,6 @@
         </li>
       </ul>
     </div>
-  </nav>
+
+  </div>
+</nav>

@@ -4,20 +4,20 @@ title: "Home"
 
 profile:
   align: right
-  image: /assets/img/profile_pic.jpeg
+  image: /assets/img/profile_pic_2.jpeg
   image_circular: true
   more_info:
 ---
 
 # Biography
+<div class="bio-text">
+Hi, and welcome to my About Me page! Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!
 
-Hi, and welcome to my About Me page! I’m currently a graduating PhD student in Health Data Science at the University of Oxford, specialising in deep learning and predictive modelling.
 
-I completed my undergraduate degree in Computer Science at the University of Nottingham, where I also spent 13 months at Intel as a Software Application Engineer. During my placement, I worked on software consultation for financial services clients, optimising trading algorithms, and managing high-performance computing resources.
+I’m a graduating PhD student in Health Data Science at the University of Oxford, where my research focuses on using high-frequency sensor data from wearable devices to improve clinical risk prediction for cardiovascular disease and mortality.
 
-After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry. Throughout my research I worked in collaboration with Swiss Re and completed an internship in actuarial modelling and scientific communication — blog post coming soon!
-
-I find that my greatest joys in work come from research — diving into complex problems, learning how things tick beneath the surface, and uncovering new insights along the way. Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!
+I completed a BSc (Hons) in Computer Science at the University of Nottingham in 2020. After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry.
+</div>
 
 ---
 

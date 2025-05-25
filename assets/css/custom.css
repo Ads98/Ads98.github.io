@@ -4,6 +4,11 @@
   margin-bottom: 1rem;
 }
 
+/* ✅ Biography text size adjustment */
+.bio-text {
+  font-size: 1.15rem; /* Increase as desired */
+  line-height: 1.7;
+}
 /* 🔵 Enable bullets for Interests */
 .interest-list {
   list-style-type: disc !important;

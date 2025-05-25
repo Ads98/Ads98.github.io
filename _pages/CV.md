@@ -36,13 +36,13 @@ Below is a summary of my academic background, research experience, and technical
 <div class="accordion" id="cvAccordion">
 
 <!-- 💼 Professional Experience -->
-<div class="accordion-item">
+<div class="accordion-item mb-3">
   <h2 class="accordion-header" id="headingExp">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
       💼 Professional Experience
     </button>
   </h2>
-  <div id="collapseExp" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+  <div id="collapseExp" class="accordion-collapse collapse" aria-labelledby="headingExp" data-bs-parent="#cvAccordion">
     <div class="accordion-body" markdown="1">
 **PhD Researcher in Health Data Science** – _University of Oxford, Oct 2020 – May 2025_  
 - Built deep learning pipelines for ECG-based cardiovascular risk  
@@ -51,13 +51,13 @@ Below is a summary of my academic background, research experience, and technical
 
 **Intern – Swiss Re, Life & Health R&D** – _Jun–Aug 2024_  
 - LSTM + ARIMA mortality forecasts on 6M individuals  
-- Authored internal reports on mortality trends & regulatory impact
+- Authored internal reports on mortality trends & regulatory impact  
 
 **Software Engineer Intern – Intel Corporation** – _Jul 2018 – Aug 2019_  
 - Optimised financial algorithms (Black-Scholes, Monte Carlo)  
 - Deployed wearable ML models; led STEM outreach events
     </div> <!-- accordion-body -->
-  </div> <!-- accordion-box -->
+  </div> <!-- accordion-collapse -->
 </div> <!-- accordion-item -->
 
 <!-- 🎓 Education -->
@@ -76,9 +76,10 @@ Below is a summary of my academic background, research experience, and technical
 **BSc (Hons), Computer Science** – _University of Nottingham_  
 - First Class Honours (Ranked 1st of 180)  
 - Awarded Top Student Prize
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
+
 
 <!-- 🛠️ Technical Skills -->
 <div class="accordion-item">
@@ -94,9 +95,9 @@ Below is a summary of my academic background, research experience, and technical
 - **Cloud/MLOps**: Docker, Git, ClearML, AWS  
 - **Data Tools**: Pandas, NumPy, Spark  
 - **Engineering**: Fourier transforms, CNNs, contrastive learning
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
 
 <!-- 📚 Publications -->
 <div class="accordion-item">
@@ -112,9 +113,10 @@ Below is a summary of my academic background, research experience, and technical
 
 **Industry Reports**  
 - *Swiss Re Institute*. [_Alzheimer’s and Life Insurance Risk_](https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html)
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
+
 
 <!-- 🏆 Awards -->
 <div class="accordion-item">
@@ -128,9 +130,10 @@ Below is a summary of my academic background, research experience, and technical
 - **EPSRC CDT Studentship** – Full funding, 2020–2024  
 - **Top Student Award**, Nottingham – 2020  
 - **Exceptional Achievement Awards** – 2017 & 2018
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
+
 
 <!-- 🎤 Invited Talks -->
 <div class="accordion-item">
@@ -144,9 +147,9 @@ Below is a summary of my academic background, research experience, and technical
 - European Society of Cardiology (2024)  
 - British Cardiovascular Society (2024, Best of Best)  
 - ISMPA (2024), BHF Oxford Symposium (2023)
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
 
 <!-- 🤝 Outreach -->
 <div class="accordion-item">
@@ -162,9 +165,11 @@ Below is a summary of my academic background, research experience, and technical
 
 **STEM Lead**, Intel – _2018–2019_  
 - Delivered AI/STEM workshops to 1,000+ students
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
+
+
 
 </div>  <!-- accordion -->
 

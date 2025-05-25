@@ -76,25 +76,33 @@ body.dark-mode .navbar-toggler-icon {
 
 /* ✅ Card styles for light mode */
 .projects-section .card {
-  background-color: #ffffff; /* white card */
-  color: #000000; /* black text */
+  background-color: #ffffff;
+  color: #ffffff; /* ensure default text is white */
   border: none;
 }
 
-
 .projects-section .card-title {
-  color: #0d6efd; /* Bootstrap primary blue */
+  color: #0d6efd !important; /* Blue heading */
+}
+
+.projects-section .card-text {
+  color: #000000 !important; /* Black paragraph text */
 }
 
 /* ✅ Card styles for dark mode */
 body.dark-mode .projects-section .card {
-  background-color: #2a2a2a !important; /* dark gray */
-  color: #f8f9fa !important; /* white text */
+  background-color: #2a2a2a !important;
+  color: #f8f9fa !important;
 }
 
 body.dark-mode .projects-section .card-title {
-  color: #80bfff !important; /* light blue */
+  color: #80bfff !important; /* Light blue title */
 }
+
+body.dark-mode .projects-section .card-text {
+  color: #f8f9fa !important; /* Light body text */
+}
+
 
 
 .projects-section h2 {

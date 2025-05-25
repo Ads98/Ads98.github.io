@@ -37,8 +37,16 @@
   color: #6c757d !important;
 }
 
-.navbar.bg-light {
-  background-color: #f8f9fa !important; /* Bootstrap's default light */
+/* Light mode navbar */
+body:not(.dark-mode) .navbar {
+  background-color: #f8f9fa !important;
+  color: #212529 !important;
+}
+
+/* Dark mode navbar */
+body.dark-mode .navbar {
+  background-color: #1f1f1f !important;
+  color: #f8f9fa !important;
 }
 
 .page-content-below-navbar {
@@ -47,7 +55,7 @@
 
 /* ✅ Projects section (light mode) */
 .projects-section {
-  background-color: #cdcdcd;
+  background-color: #e0e0e0;
   color: #000; /* readable text in light mode */
   margin-left: 0;
   margin-right: 0;

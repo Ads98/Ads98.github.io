@@ -56,9 +56,9 @@ Below is a summary of my academic background, research experience, and technical
 **Software Engineer Intern – Intel Corporation** – _Jul 2018 – Aug 2019_  
 - Optimised financial algorithms (Black-Scholes, Monte Carlo)  
 - Deployed wearable ML models; led STEM outreach events
-    </div>
-  </div>
-</div>
+    </div> <!-- accordion-body -->
+  </div> <!-- accordion-box -->
+</div> <!-- accordion-item -->
 
 <!-- 🎓 Education -->
 <div class="accordion-item">
@@ -166,10 +166,13 @@ Below is a summary of my academic background, research experience, and technical
   </div>
 </div>
 
-</div>
+</div>  <!-- accordion -->
 
 
----
+<!-- Add a spacer to ensure layout separation -->
+<div class="mt-4"></div>
+
+<hr>
 
 ## 📄 Download
 

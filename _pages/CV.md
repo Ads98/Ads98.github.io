@@ -56,12 +56,10 @@ Below is a summary of my academic background, research experience, and technical
 ## 🎓 Education
 
 
-**PhD in Health Data Science (EPSRC CDT)**  
-_University of Oxford, October 2020 – May 2025_  
+**PhD in Health Data Science (EPSRC CDT)_University of Oxford, October 2020 – May 2025_**  
 - Fully funded scholarship with enhanced stipend (~£100,000 over four years).  
 
-**BSc (Hons) in Computer Science**  
-_University of Nottingham, September 2016 – July 2020_  
+**BSc (Hons) in Computer Science _University of Nott ingham, September 2016 – July 2020_**  
 - First Class Honours, 85% — ranked 1st of 180 students; awarded School of Computer Science Top Student Award.  
 
 
@@ -98,7 +96,7 @@ _University of Nottingham, September 2016 – July 2020_
 
 - **European Society of Cardiology Congress** — August 2024  
 - **British Cardiovascular Society Annual Conference** — June 2024  
-  _Best of the Best oral presentation award (x2)_
+    -_Best of the Best oral presentation award (x2)_
 
 - **International Society for the Measurement of Physical Activity** — June 2024  
 - **BHF Centre for Research Excellence Symposium** — November 2023
@@ -106,19 +104,15 @@ _University of Nottingham, September 2016 – July 2020_
 <hr>
 
 
-<hr>
 ## 🏆 Awards
 
-**EPSRC Health Data Science CDT Studentship**  
-_September 2020 – December 2024_  
+**EPSRC Health Data Science CDT Studentship _September 2020 – December 2024_**  
 - Full tuition and enhanced stipend (~£100,000 over four years).
 
-**University of Nottingham Top Student Award**  
-_July 2020_  
+**University of Nottingham Top Student Award_July 2020_**  
 - Graduated 1st in cohort; awarded for outstanding academic performance.
 
-**Undergraduate Exceptional Achievement Awards**  
-_July 2017, July 2018_  
+**Undergraduate Exceptional Achievement Awards _July 2017, July 2018_**  
 - Awarded for ranking in top 5 of cohort for academic achievement.
 
 
@@ -126,12 +120,10 @@ _July 2017, July 2018_
 
 ## 🤝 Outreach & Leadership
 
-**Treasurer, Austrian Society, University of Oxford**  
-_October 2022 – October 2024_  
+**Treasurer, Austrian Society, University of Oxford _October 2022 – October 2024_**  
 - Managed finances and organised cultural events to foster UK–Austria connections.
 
-**Technical Lead, Intel Inspire STEM Committee**  
-_July 2018 – August 2019_  
+**Technical Lead, Intel Inspire STEM Committee _July 2018 – August 2019_**  
 - Led outreach reaching 1,000+ students annually, delivering workshops in AI, hardware, and programming.
 <hr>
 ## 📄 Download

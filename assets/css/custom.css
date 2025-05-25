@@ -147,3 +147,9 @@ body.dark-mode a {
 body.dark-mode .text-muted {
   color: #bbbbbb !important;
 }
+
+
+.cv-tech-summary .col-md-3 {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}

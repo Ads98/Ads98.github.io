@@ -5,18 +5,19 @@ title: "Home"
 profile:
   align: right
   image: /assets/img/profile_pic_2.jpeg
-  image_circular: true
+  image_circular: false
   more_info:
 ---
 
 # Biography
 <div class="bio-text">
-Hi, and welcome to my About Me page! Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!
 
+<p>Hi, and welcome to my About Me page! Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!</p>
 
-I’m a graduating PhD student in Health Data Science at the University of Oxford, where my research focuses on using high-frequency sensor data from wearable devices to improve clinical risk prediction for cardiovascular disease and mortality.
+<p>I’m a graduating PhD student in Health Data Science at the University of Oxford, where my research focuses on using high-frequency sensor data from wearable devices to improve clinical risk prediction for cardiovascular disease and mortality.</p>
 
-I completed a BSc (Hons) in Computer Science at the University of Nottingham in 2020. After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry.
+<p>I completed a BSc (Hons) in Computer Science at the University of Nottingham in 2020. After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry.</p>
+
 </div>
 
 ---

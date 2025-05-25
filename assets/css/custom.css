@@ -208,14 +208,29 @@ body.dark-mode .accordion-button {
   color: #f8f9fa;
 }
 
-/* 🔽 Chevron arrow inside accordion button */
-.accordion-button .chevron::after {
-  content: "▼";
-  font-size: 0.9rem;
+/* Ensure the button wrapper is relative */
+.accordion-header {
+  position: relative;
+}
+
+/* Chevron arrow styling */
+.accordion-button .chevron {
+  position: absolute;
+  right: 1.25rem; /* aligns with padding of accordion button */
+  top: 50%;
+  transform: translateY(-50%);
   transition: transform 0.2s ease;
 }
 
-/* 🔼 Rotate when expanded */
+/* Default arrow down */
+.accordion-button .chevron::after {
+  content: "▼";
+  font-size: 0.9rem;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate when expanded */
 .accordion-button:not(.collapsed) .chevron::after {
   transform: rotate(180deg);
 }

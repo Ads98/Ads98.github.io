@@ -4,7 +4,8 @@ title: "CV"
 permalink: /CV/
 ---
 
-# Place holder CV full CV coming soon!
+# Curriculum Vitae 
+I am a graduating PhD student in Data Science at the University of Oxford. I have 4+ years' experience as a Machine Learning Engineer, working across academia, finance and insurance. 
 
 Below is a summary of my academic background, research experience, and technical skills. A downloadable PDF version of my CV is available [here](/assets/files/CV.pdf).
 

@@ -31,13 +31,11 @@ Below is a summary of my academic background, research experience, and technical
 
 <hr>
 
-
-<!-- ✅ Bootstrap Accordion for collapsible CV sections -->
 <!-- ✅ Bootstrap Accordion -->
 <div class="accordion" id="cvAccordion">
 
 <!-- 💼 Professional Experience -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingExp">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">
       💼 Professional Experience
@@ -62,7 +60,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 🎓 Education -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingEdu">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEdu">
       🎓 Education
@@ -82,7 +80,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 🛠️ Technical Skills -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingSkills">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills">
       🛠️ Technical Skills
@@ -100,7 +98,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 📚 Publications -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingPubs">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePubs">
       📚 Publications
@@ -118,7 +116,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 🏆 Awards -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingAwards">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
       🏆 Awards
@@ -134,7 +132,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 🎤 Invited Talks -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingTalks">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTalks">
       🎤 Invited Talks
@@ -150,7 +148,7 @@ Below is a summary of my academic background, research experience, and technical
 </div>
 
 <!-- 🤝 Outreach -->
-<div class="accordion-item mb-3 cv-section">
+<div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingOutreach">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutreach">
       🤝 Outreach & Leadership
@@ -169,9 +167,7 @@ Below is a summary of my academic background, research experience, and technical
 
 </div> <!-- End Accordion -->
 
-
-<!-- Add a spacer to ensure layout separation -->
-<div class="mt-4"></div>
+<div class="mt-5"></div>
 
 <hr>
 

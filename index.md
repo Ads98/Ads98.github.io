@@ -12,11 +12,11 @@ profile:
 # Biography
 <div class="bio-text">
 
-<p>Hi, and welcome to my About Me page! Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!</p>
+<p>Hi, and welcome to my page! Feel free to browse my latest projects, and don’t hesitate to reach out if you have any questions or are interested in collaborating — I’d love to hear from you!</p>
 
 <p>I’m a graduating PhD student in Health Data Science at the University of Oxford, where my research focuses on using high-frequency sensor data from wearable devices to improve clinical risk prediction for cardiovascular disease and mortality.</p>
 
-<p>I completed a BSc (Hons) in Computer Science at the University of Nottingham in 2020. After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford. My research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry.</p>
+<p>I completed a BSc (Hons) in Computer Science at the University of Nottingham in 2020. After graduating, I joined the Centre for Doctoral Training in Health Data Science at Oxford, where my research focuses on developing long-term cardiovascular risk prediction tools using wearable sensor data, including ECG and accelerometry.</p>
 
 </div>
 

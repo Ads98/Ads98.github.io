@@ -1,11 +1,25 @@
-{% if site.bib_search %}
-  <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
-{% endif %}
+<div class="bib-search">
+  <input
+    type="text"
+    id="bib-search"
+    class="form-control"
+    placeholder="Type to filter publications..."
+  >
+</div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("bib-search");
+    const entries = document.querySelectorAll(".pub-entry");
 
+    if (!searchInput || entries.length === 0) return;
 
-
-
-
-
+    searchInput.addEventListener("input", function () {
+      const query = this.value.toLowerCase();
+      entries.forEach(entry => {
+        const text = entry.textContent.toLowerCase();
+        entry.style.display = text.includes(query) ? "" : "none";
+      });
+    });
+  });
+</script>

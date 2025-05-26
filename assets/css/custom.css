@@ -240,3 +240,169 @@ body.dark-mode .accordion-button {
 .cv-page {
   zoom: 0.75;
 }
+
+
+
+/* Pupl;ication CSS*/
+.publications {
+  list-style: none;
+  counter-reset: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 20rem;
+}
+.publications > .row {
+  margin-bottom: 20rem;
+}
+
+.pub-entry {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.publications li {
+  list-style: none;
+  counter-increment: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.publications ol,
+.publications ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+}
+
+ 
+.periodical {
+  font-style: italic;
+  margin-bottom: 0.4rem;
+}
+.links a {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.author a,
+.author em,
+.author {
+  color: #000000 !important; /* Default: black */
+}
+
+body.dark-mode .author a,
+body.dark-mode .author em,
+body.dark-mode .author {
+  color: #ffffff !important; /* Set to black explicitly in dark mode */
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+/* Default: light mode (purple) */
+.venue-badge {
+  background-color: #d2d0d3;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.4em 0.75em;
+  font-size: 1.25rem; /* bumped up for visibility */
+  border-radius: 6px;
+  display: inline-block;
+  min-width: 120px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.venue-badge a {
+  color: black !important;
+}
+
+/* Dark mode: light blue */
+body.dark-mode .venue-badge {
+  background-color: #2a2a2a !important;
+  color: white !important;
+}
+
+body.dark-mode .venue-badge a {
+  color: white !important;
+}
+/* Dark mode override */
+body.dark-mode .links a.btn {
+  background-color: #2a2a2a;
+  color: #f8f9fa;
+  border-color: #555;
+}
+
+body.dark-mode .links a.btn:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+
+
+.abstract p {
+  font-size: 1.25rem; /* slightly larger text */
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.abstract p strong {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.abstract.hidden {
+  display: none !important;
+}
+
+.abstract.hidden.showing {
+  display: block !important;
+}
+
+.links a.btn {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  background-color: #f8f9fa;
+  color: #333;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.links a.btn:hover {
+  background-color: #e2e6ea;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.bib-search {
+  margin-bottom: 2rem;
+}
+
+.bib-search input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  color: #000;
+}
+  
+  body.dark-mode .bib-search input {
+    background-color: #222;
+    color: #f8f9fa;
+    border-color: #444;
+  }

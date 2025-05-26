@@ -13,6 +13,7 @@ gem "jekyll", "~> 4.2"
 gem "jekyll-scholar"
 
 gem "minima", "~> 2.5"
+gem "sass-embedded", "~> 1.56.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 
@@ -22,6 +23,32 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'classifier-reborn'
+    gem 'jekyll-archives'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
+    gem 'jekyll-toc'
+   # gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+    gem 'unicode_utils'
+    gem 'webrick'
+
+end
+
+group :other_plugins do
+  gem 'css_parser'
+  gem 'feedjira'
+  gem 'httparty'
+  gem 'activesupport'
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gemS

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 permalink: /publications/
 title: Publications
-description:
-nav: true
 ---
 
 <!-- _pages/publications.md -->
@@ -11,9 +9,10 @@ nav: true
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
-
 <div class="publications">
 
-{% bibliography %}
+
+
+{% bibliography --template bib %}
 
 </div>

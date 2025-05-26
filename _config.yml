@@ -18,6 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# -----------------------------------------------------------------------------
+# Site config
+# -----------------------------------------------------------------------------
 title: My First site
 email: your-email@example.com
 description: >-
@@ -42,12 +45,13 @@ include:
 
 scholar:
   last_name: [Sturge]
-  first_name: [Adam, A.]
+   first_name: ["Adam", "A", "A."]
 
   style: apa
   locale: en
 
   source: /_bibliography/
+  #bibliography: _bibliography/papers.bib
   bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
@@ -107,7 +111,21 @@ more_authors_animation_delay: 10 # more authors are revealed on click using anim
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
 
+third_party_libraries: {}
 
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes
+# -----------------------------------------------------------------------------
+
+# These are the defaults
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+
+
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.

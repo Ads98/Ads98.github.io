@@ -73,21 +73,24 @@ Below is a summary of my academic background, research experience, and technical
     <div class="accordion-body">
       <p><strong>PhD Researcher in Health Data Science</strong> – <em>University of Oxford, Oct 2020 – May 2025</em></p>
       <ul>
-        <li>Built deep learning pipelines for ECG-based cardiovascular risk</li>
-        <li>Outperformed NHS tools by up to 17%</li>
-        <li>Presented at ESC, ICAMPAM, BCS</li>
+        <li>Built  scalable deep learning pipelines for medical device data such as ECG to future disese incident disease</li>
+        <li>Achieved up to 17% improvement in identifying eligible patients for treatment over the current NHS risk tools</li>
+        <li>Presented at top international conferences such as ESC, BSC, ICAMPAM</li>
       </ul>
 
-      <p><strong>Intern – Swiss Re, Life & Health R&D</strong> – <em>Jun–Aug 2024</em></p>
+      <p><strong> Life & Health R&D Analyst – Swiss Re</strong> – <em>Internship:  Jun–Aug 2024</em></p>
       <ul>
-        <li>LSTM + ARIMA mortality forecasts on 6M individuals</li>
-        <li>Internal reports on mortality trends & regulatory impact</li>
+        <li>Conducted mortality forecasting across 6 million surveyed individuals using LSTM and ARIMA models to support pricing strategies</li>
+        <li>Used causal methods such as G-computation to assess difference in mortality between insured and uninsured
+populations</li>
+        <li>Authored scientific reports on emerging medical innovations shaping life and health insurance, published for internal and external stakeholders</li>
       </ul>
 
-      <p><strong>Software Engineer Intern – Intel Corporation</strong> – <em>Jul 2018 – Aug 2019</em></p>
+      <p><strong>Software Engineer – Intel Corporation</strong> – <em>Jul 2018 – Aug 2019</em></p>
       <ul>
+        <li>Provided software consultation to major accounting firms to address </li>
         <li>Optimised financial algorithms (Black-Scholes, Monte Carlo)</li>
-        <li>Deployed wearable ML models; led STEM outreach events</li>
+        <li>Managed and maintained high-performance computing (HPC) resources, including cluster infrastructure, and performance monitoring.</li>
       </ul>
     </div>
   </div>
@@ -105,39 +108,17 @@ Below is a summary of my academic background, research experience, and technical
     <div class="accordion-body">
       <p><strong>PhD, Health Data Science (EPSRC CDT)</strong> – <em>University of Oxford</em></p>
       <ul>
-        <li>Fully funded with ~£100k studentship</li>
-        <li>Research on wearable sensor data and cardiovascular risk</li>
+        <li>Full EPSRC scholarship and enhanced stipend (~£100,000 over four years)</li>
       </ul>
 
       <p><strong>BSc (Hons), Computer Science</strong> – <em>University of Nottingham</em></p>
       <ul>
-        <li>First Class Honours (Ranked 1st of 180)</li>
-        <li>Awarded Top Student Prize</li>
+        <li>First Class Honours, 85% (Ranked 1st out of 180, awarded the School of Computer Science Top Student Award).</li>
       </ul>
     </div>
   </div>
 </div>
 
-<!-- 🛠️ Technical Skills -->
-<div class="accordion-item mb-5 cv-section">
-  <h2 class="accordion-header" id="headingSkills">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSkills">
-      🛠️ Technical Skills
-      <span class="chevron"></span>
-    </button>
-  </h2>
-  <div id="collapseSkills" class="accordion-collapse collapse">
-    <div class="accordion-body">
-      <ul>
-        <li><strong>Languages</strong>: Python, R, SQL, C, Java, Haskell</li>
-        <li><strong>ML/DL</strong>: PyTorch, TensorFlow, scikit-learn, SHAP</li>
-        <li><strong>Cloud/MLOps</strong>: Docker, Git, ClearML, AWS</li>
-        <li><strong>Data Tools</strong>: Pandas, NumPy, Spark</li>
-        <li><strong>Engineering</strong>: Fourier transforms, CNNs, contrastive learning</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
 <!-- 📚 Publications -->
 <div class="accordion-item mb-5 cv-section">
@@ -162,25 +143,6 @@ Below is a summary of my academic background, research experience, and technical
   </div>
 </div>
 
-<!-- 🏆 Awards -->
-<div class="accordion-item mb-5 cv-section">
-  <h2 class="accordion-header" id="headingAwards">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
-      🏆 Awards
-      <span class="chevron"></span>
-    </button>
-  </h2>
-  <div id="collapseAwards" class="accordion-collapse collapse">
-    <div class="accordion-body">
-      <ul>
-        <li><strong>EPSRC CDT Studentship</strong> – Full funding, 2020–2024</li>
-        <li><strong>Top Student Award</strong>, Nottingham – 2020</li>
-        <li><strong>Exceptional Achievement Awards</strong> – 2017 & 2018</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 <!-- 🎤 Invited Talks -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingTalks">
@@ -192,30 +154,67 @@ Below is a summary of my academic background, research experience, and technical
   <div id="collapseTalks" class="accordion-collapse collapse">
     <div class="accordion-body">
       <ul>
-        <li>European Society of Cardiology (2024)</li>
-        <li>British Cardiovascular Society (2024, Best of Best)</li>
-        <li>ISMPA (2024), BHF Oxford Symposium (2023)</li>
+        <li>European Society of Cardiology | August 2024</li>
+        <li>
+          British Cardiovascular Society | June 2024
+          <ul>
+            <li>Received “Best of the Best” awards for two oral presentations</li>
+          </ul>
+        </li>
+        <li>International Society for the Measurement of Physical Activity | June 2024</li>
+        <li>British Heart Foundation Centre for Research Excellence Symposium | November 2023</li>
       </ul>
     </div>
   </div>
 </div>
 
+<!-- 🏆 Awards -->
+<div class="accordion-item mb-5 cv-section">
+  <h2 class="accordion-header" id="headingAwards">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAwards">
+      🏆 Awards
+      <span class="chevron"></span>
+    </button>
+  </h2>
+  <div id="collapseAwards" class="accordion-collapse collapse">
+    <div class="accordion-body">
+      <ul>
+        <li><strong>EPSRC Health Data Science CDT Studentship</strong> – Full funding, 2020–2024</li>
+        <li>
+          <strong>University of Nottingham School of Computer Science Top Student Award</strong>, 2020
+          <ul>
+            <li>Awarded for graduating at the top of my BSc (Hons) cohort</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Undergraduate Exceptional Achievement Award</strong> – 2017 & 2018
+          <ul>
+            <li>Awarded for completing the academic year within the top 5 of the cohort for overall percentage grade</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
 <!-- 🤝 Outreach -->
 <div class="accordion-item mb-5 cv-section">
   <h2 class="accordion-header" id="headingOutreach">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOutreach">
-      🤝 Outreach & Leadership
+      🤝 Charity & Outreach 
       <span class="chevron"></span>
     </button>
   </h2>
   <div id="collapseOutreach" class="accordion-collapse collapse">
     <div class="accordion-body">
-      <p><strong>Treasurer, Austrian Society</strong> – <em>Oxford (2022–2024)</em></p>
+      <p><strong>Treasurer, Austrian Society</strong> – <em>University Of Oxford (2022–2024)</em></p>
       <ul>
         <li>Managed budget and cultural programming</li>
       </ul>
 
-      <p><strong>STEM Lead, Intel</strong> – <em>2018–2019</em></p>
+      <p><strong>Technical Lead, Intel Inspire/STEM committee</strong> – <em>Intel (2018–2019)</em></p>
       <ul>
         <li>Delivered AI/STEM workshops to 1,000+ students</li>
       </ul>

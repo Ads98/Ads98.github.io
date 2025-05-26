@@ -4,7 +4,7 @@ title: "Home"
 
 profile:
   align: right
-  image: /assets/img/profile_pic_2.jpeg
+  image: /assets/img/profile_pic_3.jpeg
   image_circular: false
   more_info:
 ---
@@ -68,9 +68,9 @@ profile:
       <!-- ECG Survival Project -->
       <div class="col-md-5 col-lg-4 mb-4">
         <div class="card shadow-sm h-100">
-          <img src="/assets/img/ecg.jpeg" class="card-img-top" alt="ECG Survival Project" />
+          <img src="/assets/img/ecg risk.jpeg" class="card-img-top" alt="ECG Survival Project" />
           <div class="card-body">
-            <h5 class="card-title">ECG Survival</h5>
+            <h5 class="card-title">ECG Survival (Blog Post Coming Soon!)</h5>
             <p class="card-text">Developing deep learning models using ECG data to predict long-term cardiovascular outcomes.</p>
             <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
             <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>
@@ -81,9 +81,9 @@ profile:
       <!-- LLMs Project -->
       <div class="col-md-5 col-lg-4 mb-4">
         <div class="card shadow-sm h-100">
-          <img src="/assets/img/LLM.png" class="card-img-top" alt="LLMs Project" />
+          <img src="/assets/img/LLM_icon.png" class="card-img-top" alt="LLMs Project" />
           <div class="card-body">
-            <h5 class="card-title">LLMs for Biomedical Text</h5>
+            <h5 class="card-title">LLMs for Biomedical Text (Blog Post Coming Soon!)</h5>
             <p class="card-text">Exploring the use of large language models for summarising biomedical literature and structuring evidence.</p>
             <a href="#" class="btn btn-outline-primary btn-sm">Details</a>
             <a href="#" class="btn btn-outline-secondary btn-sm">Code</a>

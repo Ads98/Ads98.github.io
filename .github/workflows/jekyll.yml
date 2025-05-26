@@ -3,7 +3,7 @@ name: Build and Deploy Jekyll Site with Scholar
 on:
   push:
     branches:
-      - gh-pages  # or 'master' if you're using that
+      - main  # or 'master' if you're using that
 
 jobs:
   build:
@@ -30,3 +30,4 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages

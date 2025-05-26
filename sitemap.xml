@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/jekyll/update/2025/05/05/welcome-to-jekyll.html</loc>
+<lastmod>2025-05-05T18:32:04+00:00</lastmod>
+</url>
+<url>
+<loc>/CV/</loc>
+</url>
+<url>
+<loc>/about/profile/</loc>
+</url>
+<url>
+<loc>/about/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/about/me/</loc>
+</url>
+<url>
+<loc>/publications/</loc>
+</url>
+<url>
+<loc>/_pages/header.liquid.html</loc>
+<lastmod>2025-05-26T16:41:56+00:00</lastmod>
+</url>
+<url>
+<loc>/assets/files/CV.pdf</loc>
+<lastmod>2025-05-26T16:41:56+00:00</lastmod>
+</url>
+</urlset>

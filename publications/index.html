@@ -1,27 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <title>Publications</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ✅ Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- ✅ Font Awesome (for icons) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- ✅ Custom site styles -->
-    <link
-      rel="stylesheet"
-      href="/assets/css/custom.css"
-    />
+    <link rel="stylesheet" href="/assets/css/custom.css">
 
     
   </head>
@@ -55,8 +47,7 @@
       <a class="nav-link text-dark px-2" href="/contact/">Contact</a>
 
       <!-- Menu button (always visible) -->
-      <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler d-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -85,32 +76,607 @@
       
 
       <!-- ✅ Page content -->
-      <!-- _pages/publications.md -->
+      
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Publications</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
 
+<div class="bib-search">
+  <input type="text" id="bib-search" class="form-control" placeholder="Type to filter publications...">
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("bib-search");
+    const entries = document.querySelectorAll(".pub-entry");
+
+    if (!searchInput || entries.length === 0) return;
+
+    searchInput.addEventListener("input", function () {
+      const query = this.value.toLowerCase();
+      entries.forEach(entry => {
+        const text = entry.textContent.toLowerCase();
+        entry.style.display = text.includes(query) ? "" : "none";
+      });
+    });
+  });
+</script>
+
 <div class="publications">
 
+
+
 <h2 class="bibliography">2025</h2>
-<ol class="bibliography"><li>bib</li></ol>
+<ol class="bibliography"><li>
+<div class="pub-entry">
+  <div class="row">
+    
+      <div class="col col-sm-2 abbr">
+          
+          <abbr class="badge rounded w-100 venue-badge ">
+            
+              <a href="https://www.medrxiv.org/content/10.1101/2025.04.03.25325101v1">MedRxiv</a>
+            
+          </abbr>
+      </div>
+    
+
+    <div id="sturge2025predictive" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">Predictive performance of wearable sensors for mortality risk in older adults: a model development and validation study</div>
+
+      <!-- Author -->
+      <div class="author">
+        
+        
+        
+
+          
+
+          
+
+          
+            <u><strong>Adam Sturge</strong></u>
+          
+        
+
+          
+
+          , 
+
+          
+            Charlie Harper
+          
+        
+
+          
+
+          , 
+
+          
+            Shing Chan
+          
+        
+
+          
+
+          , 
+
+          
+            Benjamin Maylor
+          
+        
+
+          
+
+          , 
+
+          
+            Alaina Shreves
+          
+        
+          , and
+          <span class="more-authors" title="click to view 6 more authors" onclick="...">
+            6 more authors
+          </span>
+        
+      </div>
+
+      <!-- Periodical -->
+      
+      
+      
+      
+      
+      
+      
+      <div class="periodical">
+<em>medRxiv</em> 2025</div>
+      <div class="periodical"></div>
+
+      <!-- Links -->
+      <div class="links">
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="https://www.medrxiv.org/content/10.1101/2025.04.03.25325101v1" class="btn btn-sm z-depth-0" role="button">Link</a>
+        
+        
+      </div>
+
+      <!-- Hidden blocks -->
+     
+      <div class="abstract hidden">
+        <p><strong>Background:</strong> Many adults in high-income countries carry a device capable of measuring physical- activity behaviour. Thus, there is public health need to understand whether such data can enhance prediction of future health outcomes. We aimed to investigate whether device-measured daily-step count and walking cadence improve the prediction of mortality beyond traditional risk-factors.
+  <strong>Methods:</strong> Risk models were developed to predict five-year all-cause mortality using data from the UK Biobank accelerometer sub-study, with external validation in the US 2011-2014 National Health and Nutrition Examination Survey (NHANES). Median daily-step count and peak one-minute walking cadence were derived using self-supervised machine learning models from seven-day wrist-worn accelerometer data. Cox models were used to develop a baseline model incorporating traditional risk- factors, and a baseline model plus accelerometer data (i.e. daily-steps and walking cadence). Changes in model performance were assessed using Harrell’s C-index, net reclassification index (NRI; 10% threshold), and the Nam-D’Agostino calibration test.
+  <strong>Findings:</strong> Among 79,717 UK Biobank participants, 1,640 died within 5-years. Adding accelerometer data to the baseline model modestly improved risk discrimination and classification with a change in c- index of 0.008 (95% confidence interval [CI] 0.005-0.011) and 3.3% NRI (95%CI 2.1%-4.5%). Greatest improvements in prediction were observed in participants with prior disease at baseline, showing a change in c-index of 0.028 (95%CI 0.019-0.039) and 5.9% NRI (95%CI 3.1%-8.6%). In the NHANES external validation cohort (n=4,713; deaths=378), similar improvements in prediction were observed (change in c-index: 0.015, 95%CI 0.007-0.025; NRI: 4.0%, 95%CI 0.7%-7.4%). All models were well calibrated (Nam-D’Agostino χ2 range: 6.8-13.2).
+  <strong>Interpretation:</strong> Device-measured daily-step count and walking cadence consistently demonstrated modest improvements in predicting mortality risk beyond traditional risk-factors, with the most significant enhancements seen in individuals with prior disease. These findings suggest that incorporating information from wearables does provide important new ways to improve risk stratification for targeted intervention in high-risk individuals.</p>
+
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+</li></ol>
 <h2 class="bibliography">2024</h2>
-<ol class="bibliography"><li>bib</li>
-<li>bib</li>
-<li>bib</li>
-<li>bib</li></ol>
+<ol class="bibliography">
+<li>
+<div class="pub-entry">
+  <div class="row">
+    
+      <div class="col col-sm-2 abbr">
+          
+          <abbr class="badge rounded w-100 venue-badge ">
+            
+              <a href="https://academic.oup.com/eurheartj/article/45/Supplement_1/ehae666.3494/7839282">EHJ</a>
+            
+          </abbr>
+      </div>
+    
+
+    <div id="sturge2024added" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">The added value of device measured physical activity to the prediction of incident cardiovascular disease.</div>
+
+      <!-- Author -->
+      <div class="author">
+        
+        
+        
+
+          
+
+          
+
+          
+            <u><strong>A Sturge</strong></u>
+          
+        
+
+          
+
+          , 
+
+          
+            C Harper
+          
+        
+
+          
+
+          , 
+
+          
+            S Chan
+          
+        
+
+          
+
+          , 
+
+          
+            S Van Duijvenboden
+          
+        
+
+          
+
+          , 
+
+          
+            B Casadei
+          
+        
+          , and
+          <span class="more-authors" title="click to view 1 more author" onclick="...">
+            1 more author
+          </span>
+        
+      </div>
+
+      <!-- Periodical -->
+      
+      
+      
+      
+      
+      
+      
+      <div class="periodical">
+<em>European Heart Journal</em> 2024</div>
+      <div class="periodical"></div>
+
+      <!-- Links -->
+      <div class="links">
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="https://academic.oup.com/eurheartj/article/45/Supplement_1/ehae666.3494/7839282" class="btn btn-sm z-depth-0" role="button">Link</a>
+        
+        
+      </div>
+
+      <!-- Hidden blocks -->
+     
+      <div class="abstract hidden">
+        <p><strong>Background:</strong> Conventional risk prediction models for Major Adverse Cardio/Cerebrovascular Events (MACCE) primarily rely on non-modifiable factors such as age, sex, and physiological measurements, including LDL/HDL cholesterol and blood pressure readings, that are prone to variations across medical practices and are often unavailable in many parts of the world. In this study, we investigate the potential of inexpensive wearable measurements of physical activity to enhance MACCE prediction when physiological measurements are unavailable.
+  Purpose:To assess the added value of physical activity measurements, collected via wrist-worn accelerometers, to established cardiovascular risk prediction models. Additionally, we seek to investigate whether physical activity measurements can substitute for common physiological measurements in established cardiovascular risk models.
+  <strong>Methods:</strong> We obtained accelerometer-measured physical activity over 7 days between 2013 and 2015 from 69,898 UK Biobank (UKB) participants without a prior history of MACCE, defined as death or hospitalisation due to (1) myocardial infarction, (2) heart failure, or (3) Stroke/transient ischaemic attack. We assessed the added value of daily step counts, sleep duration, and a deep learning-derived activity health score (Fig 1), calculated from complete 7-day accelerometer recordings, to established clinical risk models (SCORE2, QRISK3 and AHA) before and after excluding measurements of cholesterol and systolic blood pressure (SBP). The primary outcome was the first recorded MACCE within 6 years. Risk scores were developed in men and women using Cox proportional hazards models. We assessed predictive performance using Harrel’s C-index, net reclassification index (NRI), and net benefit at the recommended treatment threshold for each model.
+  <strong>Results:</strong> Of the 69,898 UKB participants in the study, 3,386 (4.8%) experienced a MACCE over a 6-year follow-up period. In place of HDL ratio and SBP, the addition of deep-learned activity health scores modestly improved performance in the best clinical baseline, QRISK3 for Female participants ΔC-index women:0.003 (95% CI 0.002-0.004); Δnet benefit 0.02(0.01-0.03); NRI 0.04, (0.02-0.07), and outperformed manually extracted steps and sleep measurements. We report no significant improvements for men. We find a greater increase in model performance when both HDL ratio and SBP, plus activity health scores, are included in the model. ΔC-index women:0.008, (0.007-0.009); men: 0.003 (0.002-0.004) (Fig 2).
+  <strong>Conclusion:</strong> Our findings indicate that in the absence of cholesterol and systolic blood pressure, the addition of device-measured physical activity modestly improves the performance of clinical risk scores among individuals without prior cardiovascular disease (CVD). These findings could further refine intervention strategies for targeted prevention of CVD, particularly in settings where physiological measurements may be unavailable.</p>
+
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<div class="pub-entry">
+  <div class="row">
+    
+      <div class="col col-sm-2 abbr">
+          
+          <abbr class="badge rounded w-100 venue-badge ">
+            
+              <a href="https://academic.oup.com/eurheartj/article/45/Supplement_1/ehae666.3496/7839188">EHJ</a>
+            
+          </abbr>
+      </div>
+    
+
+    <div id="sturge2024addee" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">The added value of deep learning to submaximal exercise electrocardiogram for the 10-year prediction of major adverse cardiovascular and cerebrovascular events</div>
+
+      <!-- Author -->
+      <div class="author">
+        
+        
+        
+
+          
+
+          
+
+          
+            <u><strong>A Sturge</strong></u>
+          
+        
+
+          
+
+          , 
+
+          
+            S Van Duijvenboden
+          
+        
+
+          
+
+          , 
+
+          
+            C Harper
+          
+        
+
+          
+
+          , 
+
+          
+            B Casadei
+          
+        
+
+          
+
+          , and 
+
+          
+            A Doherty
+          
+        
+      </div>
+
+      <!-- Periodical -->
+      
+      
+      
+      
+      
+      
+      
+      <div class="periodical">
+<em>European Heart Journal</em> 2024</div>
+      <div class="periodical"></div>
+
+      <!-- Links -->
+      <div class="links">
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="https://academic.oup.com/eurheartj/article/45/Supplement_1/ehae666.3496/7839188" class="btn btn-sm z-depth-0" role="button">Link</a>
+        
+        
+      </div>
+
+      <!-- Hidden blocks -->
+     
+      <div class="abstract hidden">
+        <p><strong>Background:</strong> The added value of exercise ECG data to traditional risk factors in predicting cardiovascular events remains unclear. Deep learning of ECG signals has demonstrated state-of-the-art performance in detecting subtle abnormalities indicative of cardiovascular disease. We investigated whether deep learning analysis of exercise ECGs could improve the prediction of major cardiovascular and cerebrovascular events (MACCE) with respect to established risk models in a large population-based cohort.
+            <strong>Methods:</strong> We obtained ECG recordings from 41,076 UK Biobank participants without cardiovascular disease (CVD) who underwent a submaximal exercise ECG test. We obtained ECG recordings from 41,076 UK Biobank participants without cardiovascular disease (CVD) who underwent a submaximal exercise ECG test. We created two deep neural network ECG risk scores: one derived from conventional ECG parameters, measured at rest, peak exercise and late-stage recovery, and another based on the complete ECG (Q-ECG). We assessed the added value of conventional ECG parameters and Q-ECG risk scores to the UK’s current prediction algorithm (QRISK3). We estimate the association between ECG parameters and MACCE, using Cox Proportional hazard models, following adjustment for traditional risk factors. All models were internally validated via 5-fold cross-validation and 1000 bootstrap iterations. Predictive performance was evaluated using Harrel’s C-index, Net Reclassification Index (NRI) and net benefit.
+            <strong>Findings:</strong> Incident MACCE was reported in 4,082 (9.9%) individuals in the study population and 3,463(9.7%) individuals with valid ECG parameters over a median follow-up period of 12.5 years. We found combined conventional ECG and Q-ECG scores were independently associated with MACCE, following adjustment for multiple testing: adjusted hazard ratio [HZ] = 1.76 (95% CI:1.63-1.91); HZ = 1.14 (95% CI:1.10-1.18), respectively, per standard deviation increase. Both conventional ECG parameters and Q-ECG were predictive of MACCE, independent of clinical risk factors, C-index = 0.64 (95%CI 0.63-0.65); net benefit = 0.09(95% CI 0.07 - 0.11) and C-index = 0.56 (95% CI 0.55-0.57); net benefit = 0.07(95% CI 0.05 - 0.09). ECG measurement’s modestly improved model discrimination over the bassline QRISK3 risk score when combined with QRISK3 risk factors for conventional markers and Q-ECG score, respectively; ΔC-index 0.03 (95% CI: 0.02 – 0.04) and ΔC-index 0.03 (95% CI: 0.02 – 0.03); However, we observed no significant improvements in classification at the current recommended threshold of 10%.
+            <strong>Conclusion:</strong> In individuals without a history of prior cardiovascular disease, ECG measures independently predict the risk of MACCE. When combined with QRISK3, neural-network-derived ECG risk scores marginally improve cardiovascular risk prediction over QRISK3.</p>
+
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<div class="pub-entry">
+  <div class="row">
+    
+      <div class="col col-sm-2 abbr">
+          
+          <abbr class="badge rounded w-100 venue-badge ">
+            
+              <a href="https://heart.bmj.com/content/110/Suppl_3/A40.abstract">Heart bmj</a>
+            
+          </abbr>
+      </div>
+    
+
+    <div id="sturge202436" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">36 The added value of device measured physical activity to the prediction of incident cardiovascular disease</div>
+
+      <!-- Author -->
+      <div class="author">
+        
+        
+        
+
+          
+
+          
+
+          
+            <u><strong>Adam Sturge</strong></u>
+          
+        
+
+          
+
+          , 
+
+          
+            Charlie Harper
+          
+        
+
+          
+
+          , 
+
+          
+            Shing Chan
+          
+        
+
+          
+
+          , 
+
+          
+            Stefan Van Duijvenboden
+          
+        
+
+          
+
+          , 
+
+          
+            Derrick Bennett
+          
+        
+          , and
+          <span class="more-authors" title="click to view 2 more authors" onclick="...">
+            2 more authors
+          </span>
+        
+      </div>
+
+      <!-- Periodical -->
+      
+      
+      
+      
+      
+      
+      
+      <div class="periodical"> 2024</div>
+      <div class="periodical"></div>
+
+      <!-- Links -->
+      <div class="links">
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="https://heart.bmj.com/content/110/Suppl_3/A40.abstract" class="btn btn-sm z-depth-0" role="button">Link</a>
+        
+        
+      </div>
+
+      <!-- Hidden blocks -->
+     
+      <div class="abstract hidden">
+        <p><strong>Introduction:</strong> Conventional risk prediction models for Major Adverse Cardio/Cerebrovascular Events (MACCE) primarily rely on non-modifiable factors such as age, sex, and physiological measurements, including LDL/HDL cholesterol and blood pressure readings, that are prone to variations across medical practices and are often unavailable in many parts of the world. In this study, we investigate the potential of inexpensive wearable measurements of physical activity to enhance MACCE prediction when physiological measurements are unavailable.
+            <strong>Methods:</strong> We obtained accelerometer-measured physical activity over 7 days between 2013 and 2015 from 69,898 UK Biobank (UKB) participants without a prior history of MACCE, defined as death or hospitalisation due to (1) myocardial infarction, (2) heart failure, or (3) Stroke/transient ischaemic attack. We assessed the added value of daily step counts, sleep duration, and a deep learning-derived activity health score (Fig 1), calculated from complete 7-day accelerometer recordings, to established clinical risk models (SCORE2, QRISK3 and AHA) before and after excluding measurements of cholesterol and systolic blood pressure (SBP). The primary outcome was the first recorded MACCE within 6 years. Risk scores were developed in men and women using Cox proportional hazards models. We assessed predictive performance using Harrel’s C-index, net reclassification index (NRI), and net benefit at the recommended treatment threshold for each model.
+            <strong>Results:</strong> Of the 69,898 UKB participants in the study, 3,386 (4.8%) experienced a MACCE over a 6-year follow-up period. In place of HDL ratio and SBP, the addition of deep-learned activity health scores modestly improved performance in the best clinical baseline, QRISK3 for Female participants ΔC-index women:0.003 (95% CI 0.002–0.004); Δnet benefit 0.02(0.01–0.03); NRI 0.04, (0.02–0.07), and outperformed manually extracted steps and sleep measurements. We report no significant improvements for men. We find a greater increase in model performance when both HDL ratio and SBP, plus activity health scores, are included in the model. ΔC-index women:0.008, (0.007–0.009); men: 0.003 (0.002–0.004) (Fig 2).
+            <strong>Conclusion:</strong> Our findings indicate that in the absence of cholesterol and systolic blood pressure, the addition of device-measured physical activity modestly improves the performance of clinical risk scores among individuals without prior cardiovascular disease (CVD). These findings could further refine intervention strategies for targeted prevention of CVD, particularly in settings where physiological measurements may be unavailable.</p>
+
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<div class="pub-entry">
+  <div class="row">
+    
+      <div class="col col-sm-2 abbr">
+          
+          <abbr class="badge rounded w-100 venue-badge ">
+            
+              <a href="https://heart.bmj.com/content/110/Suppl_3/A95.2.abstract">Heart bmj</a>
+            
+          </abbr>
+      </div>
+    
+
+    <div id="sturge202492" class="col-sm-8">
+      <!-- Title -->
+      <div class="title">92 The added value of deep learning to submaximal exercise electrocardiogram for the 10-year prediction of major adverse cardiovascular and cerebrovascular events</div>
+
+      <!-- Author -->
+      <div class="author">
+        
+        
+        
+
+          
+
+          
+
+          
+            <u><strong>Adam Sturge</strong></u>
+          
+        
+
+          
+
+          , 
+
+          
+            Stefan Van Duijvenboden
+          
+        
+
+          
+
+          , 
+
+          
+            Charlie Harper
+          
+        
+
+          
+
+          , 
+
+          
+            Aiden Doherty
+          
+        
+
+          
+
+          , and 
+
+          
+            Barbara Casadei
+          
+        
+      </div>
+
+      <!-- Periodical -->
+      
+      
+      
+      
+      
+      
+      
+      <div class="periodical"> 2024</div>
+      <div class="periodical"></div>
+
+      <!-- Links -->
+      <div class="links">
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="https://heart.bmj.com/content/110/Suppl_3/A95.2.abstractt" class="btn btn-sm z-depth-0" role="button">Link</a>
+        
+        
+      </div>
+
+      <!-- Hidden blocks -->
+     
+      <div class="abstract hidden">
+        <p><strong>Introduction:</strong> The added value of exercise ECG data to traditional risk factors in predicting cardiovascular events remains unclear. Deep learning of ECG signals has demonstrated state-of-the-art performance in detecting subtle abnormalities indicative of cardiovascular disease. We investigated whether deep learning analysis of exercise ECGs could improve the prediction of major cardiovascular and cerebrovascular events (MACCE) with respect to established risk models in a large population-based cohort.
+         <strong>Methods:</strong> We obtained ECG recordings from 41,076 UK Biobank participants without cardiovascular disease (CVD) who underwent a submaximal exercise ECG test. We obtained ECG recordings from 41,076 UK Biobank participants without cardiovascular disease (CVD) who underwent a submaximal exercise ECG test. We created two deep neural network ECG risk scores: one derived from conventional ECG parameters, measured at rest, peak exercise and late-stage recovery, and another based on the complete ECG (Q-ECG). We assessed the added value of conventional ECG parameters and Q-ECG risk scores to the UK’s current prediction algorithm (QRISK3). We estimate the association between ECG parameters and MACCE, using Cox Proportional hazard models, following adjustment for traditional risk factors. All models were internally validated via 5-fold cross-validation and 1000 bootstrap iterations. Predictive performance was evaluated using Harrel’s C-index, Net Reclassification Index (NRI) and net benefit.
+        <strong>Findings:</strong> Incident MACCE was reported in 4,082 (9.9%) individuals in the study population and 3,463(9.7%) individuals with valid ECG parameters over a median follow-up period of 12.5 years. We found combined conventional ECG and Q-ECG scores were independently associated with MACCE, following adjustment for multiple testing: adjusted hazard ratio [HZ] = 1.76 (95% CI:1.63–1.91); HZ = 1.14 (95% CI:1.10–1.18), respectively, per standard deviation increase. Both conventional ECG parameters and Q-ECG were predictive of MACCE, independent of clinical risk factors, C-index = 0.64 (95%CI 0.63–0.65); net benefit = 0.09(95% CI 0.07 - 0.11) and C-index = 0.56 (95% CI 0.55–0.57); net benefit = 0.07(95% CI 0.05 - 0.09). ECG measurement’s modestly improved model discrimination over the baseline QRISK3 risk score when combined with QRISK3 risk factors for conventional markers and Q-ECG score, respectively; ΔC-index 0.03 (95% CI: 0.02 – 0.04) and ΔC-index 0.03 (95% CI: 0.02 – 0.03); However, we observed no significant improvements in classification at the current recommended threshold of 10%.
+        <strong>Conclusion:</strong>  In individuals without a history of prior cardiovascular disease, ECG measures independently predict the risk of MACCE. When combined with QRISK3, neural-network-derived ECG risk scores marginally improve cardiovascular risk prediction over QRISK3.</p>
+
+      </div>
+    
+      
+    </div>
+  </div>
+</div>
+</li>
+</ol>
 
 </div>
 
+  </article>
+
+  
+
+  
+</div>
 
     </div> <!-- end .container -->
 
     <!-- ✅ Extra full-width content like Projects -->
     
 
+    <!-- ✅ jQuery (required by some features in bib.liquid) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- ✅ Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
     <script>
@@ -139,6 +705,92 @@
         applyTheme(newTheme);
       });
     </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".abstract.btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        const abstractDiv = btn.closest("div[id]").querySelector(".abstract.hidden");
+        if (abstractDiv) {
+          abstractDiv.classList.toggle("showing");
+        }
+      });
+    });
+  });
+</script>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="" integrity="" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="" integrity="" crossorigin="anonymous"></script>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
   </body>
 </html>

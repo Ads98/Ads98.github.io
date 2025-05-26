@@ -176,10 +176,13 @@ body.dark-mode .text-muted {
 }
 
 .cv-page li {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 2;
 }
 
+.cv-page {
+  zoom: 0.75;
+}
 
 /* Accordion box border and background sync */
 .accordion-item {
@@ -237,9 +240,6 @@ body.dark-mode .accordion-button {
   transform: rotate(180deg);
 }
 
-.cv-page {
-  zoom: 0.75;
-}
 
 
 

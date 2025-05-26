@@ -45,7 +45,7 @@ include:
 
 scholar:
   last_name: [Sturge]
-   first_name: ["Adam", "A", "A."]
+  first_name: ["Adam", "A", "A."]
 
   style: apa
   locale: en

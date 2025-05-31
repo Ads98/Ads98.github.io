@@ -11,7 +11,7 @@ If you'd like to get in touch, feel free to reach out via any of the channels be
 
 ## 📧 Email
 **[adam.sturge@kellogg.ox.ac.uk](mailto:adam.sturge@kellogg.ox.ac.uk)**  
-_Please include a clear subject line if reaching out regarding research or collaboration._
+_Academic email, please reach out if you are interested in my research or future collaborations_
 
 ---
 

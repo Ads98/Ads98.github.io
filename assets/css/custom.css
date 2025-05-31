@@ -256,9 +256,90 @@ body.dark-mode .accordion-button {
 }
 
 .pub-entry {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.pub-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+
+
+.pub-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 1rem;
+}
+
+.pub-badge {
+  padding-top: 0.25rem;
+}
+
+.pub-details {
+  flex: 1 1 0;
+}
+
+.pub-details .title {
+  margin-top: 0;  /* align top */
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Set a min-width to match the widest badge like 'Preparing to Submit' */
+/* Badge container column (fixed width for alignment, but invisible box) */
+.abbr-badge {
+  width: 14rem;           /* 👈 this sets alignment anchor based on widest badge */
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;    /* 👈 center badge vertically in the column */
+  justify-content: flex-start;
+}
+
+.pub-content {
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .pub-entry {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.venue-badge {
+  background-color: #d2d0d3;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  padding: 0.4em 0.75em;
+  font-size: 1.25rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  display: inline-block;
+  width: auto;
+  line-height: 1.2;
+}
+
+.venue-badge a {
+  color: black !important;
+}
+
+/* Ensure inner <a> or <span> doesn’t cancel padding */
+.venue-badge a, .venue-badge span {
+  display: inline;
+  padding: 0;  /* ⛔ Remove padding from inner elements */
+  margin: 0;
 }
 
 .publications li {
@@ -307,22 +388,8 @@ body.dark-mode .author {
   display: none !important;
 }
 
-/* Default: light mode (purple) */
-.venue-badge {
-  background-color: #d2d0d3;
-  color: white;
-  text-align: center;
-  font-weight: 500;
-  padding: 0.4em 0.75em;
-  font-size: 1.25rem; /* bumped up for visibility */
-  border-radius: 6px;
-  display: inline-block;
-  min-width: 120px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-.venue-badge a {
-  color: black !important;
-}
+
+
 
 /* Dark mode: light blue */
 body.dark-mode .venue-badge {

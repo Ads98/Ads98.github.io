@@ -4,7 +4,7 @@ title: "CV"
 permalink: /CV/
 ---
 # Curriculum Vitae 
-I am a graduating PhD student in Data Science at the University of Oxford. I have 4+ years' experience as a Machine Learning Engineer, working across academia, finance and insurance. 
+I am a graduating PhD student in Health Data Science at the University of Oxford specialising in machine learning for medical sensor data. My research aims to improve cardiovascular risk prediction through the discovery of novel digital biomarkers. 
 
 Below is a summary of my academic background, research experience, and technical skills. A downloadable PDF version of my CV is available [here](/assets/files/CV.pdf).
 
@@ -130,15 +130,25 @@ populations</li>
   </h2>
   <div id="collapsePubs" class="accordion-collapse collapse">
     <div class="accordion-body">
+
       <p><strong>First-author manuscripts</strong></p>
       <ul>
-        <li>Sturge, Harper et al. <a href="https://doi.org/10.1101/2025.04.03.25325101">Added value of step count & sleep in mortality prediction</a></li>
+        <li><strong>Sturge</strong>, Harper et al. <a href="https://doi.org/10.1101/2025.04.03.25325101">Predictive performance of wearable sensors for mortality risk in older adults: a model development and validation study</a>. <em>medRxiv</em>, 2025.</li>
       </ul>
 
-      <p><strong>Industry Reports</strong></p>
+      <p><strong>Working Manuscripts (preparation to submit)</strong></p>
       <ul>
-        <li><em>Swiss Re Institute</em>. <a href="https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html">Alzheimer’s and Life Insurance Risk</a></li>
+        <li><strong>Sturge AD</strong>, et al. <em>Development and validation of an ECG-based 10-year risk prediction model for Major Adverse Cardio/Cerebrovascular Events in UK Biobank</em>. 2025.</li>
+        <li><strong>Sturge, AD</strong> et al. <em>The added value of the objectively measured physical activity to the prediction of incident Major Adverse Cardio/Cerebrovascular Events</em>. 2025.</li>
+        <li>Acquah A, <strong>Sturge, AD</strong> et al. <em>The added value of objectively measured gait to the prediction of Parkinson’s disease</em>. 2025.</li>
       </ul>
+
+     <p><strong>Industry Reports</strong></p>
+      <ul>
+        <li><em>Swiss Re</em>. <a href="https://www.swissre.com/reinsurance/insights/alzheimers-disease-growing-development.html">Alzheimer’s Disease a growing risk with promising developments 
+ Risk</a></li>
+      </ul>
+
     </div>
   </div>
 </div>

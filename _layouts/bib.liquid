@@ -1,6 +1,15 @@
+{%- assign this_year = entry.year | append: "" -%}
+{%- assign test_id = "prep-" | append: this_year -%}
+
+{% if entry.abbr == "Preparing to Submit" %}
+  <div class="working-header" data-year="{{ entry.year }}">
+    <h3 class="pub-subheading mt-4 mb-2">Working Manuscripts</h3>
+  </div>
+{% endif %}
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       {% if entry.abbr %}

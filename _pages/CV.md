@@ -136,7 +136,7 @@ populations</li>
         <li><strong>Sturge</strong>, Harper et al. <a href="https://doi.org/10.1101/2025.04.03.25325101">Predictive performance of wearable sensors for mortality risk in older adults: a model development and validation study</a>. <em>medRxiv</em>, 2025.</li>
       </ul>
 
-      <p><strong>Working Manuscripts (preparation to submit)</strong></p>
+      <p><strong>Working Manuscripts (in preparation to submit)</strong></p>
       <ul>
         <li><strong>Sturge AD</strong>, et al. <em>Development and validation of an ECG-based 10-year risk prediction model for Major Adverse Cardio/Cerebrovascular Events in UK Biobank</em>. 2025.</li>
         <li><strong>Sturge, AD</strong> et al. <em>The added value of the objectively measured physical activity to the prediction of incident Major Adverse Cardio/Cerebrovascular Events</em>. 2025.</li>

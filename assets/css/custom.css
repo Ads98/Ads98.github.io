@@ -290,6 +290,25 @@ body.dark-mode .accordion-button {
 .pub-details .title {
   margin-top: 0;  /* align top */
 }
+
+.pub-subheading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000000;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+body.dark-mode .pub-subheading {
+  color: #ffffff !important; /* Set to black explicitly in dark mode */
+}
+
+@media (prefers-color-scheme: dark) {
+  .pub-subheading {
+    color: white;
+  }
+}
+
 .title {
   font-weight: bold;
   font-size: 1.5rem;

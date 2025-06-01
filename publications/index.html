@@ -117,9 +117,10 @@
 <h2 class="bibliography">2025</h2>
 <ol class="bibliography">
 <li>
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -313,9 +314,14 @@
 </div>
 </li>
 <li>
+  <div class="working-header" data-year="2025">
+    <h3 class="pub-subheading mt-4 mb-2">Working Manuscripts</h3>
+  </div>
+
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -491,9 +497,14 @@
 </div>
 </li>
 <li>
+  <div class="working-header" data-year="2025">
+    <h3 class="pub-subheading mt-4 mb-2">Working Manuscripts</h3>
+  </div>
+
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -682,9 +693,10 @@
 <h2 class="bibliography">2024</h2>
 <ol class="bibliography">
 <li>
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -879,9 +891,10 @@
 </div>
 </li>
 <li>
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -1065,9 +1078,10 @@
 </div>
 </li>
 <li>
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -1260,9 +1274,10 @@
 </div>
 </li>
 <li>
+
 <div class="pub-entry">
   <div class="pub-wrapper">
-    
+
     <!-- Badge Column -->
     <div class="abbr-badge">
       
@@ -1447,6 +1462,22 @@
 </ol>
 
 </div>
+
+<!-- Fix: Only show one "Working Manuscripts" heading per year -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const shownYears = new Set();
+    document.querySelectorAll('.working-header').forEach(el => {
+      const year = el.getAttribute('data-year');
+      if (shownYears.has(year)) {
+        el.style.display = 'none';
+      } else {
+        shownYears.add(year);
+      }
+    });
+  });
+</script>
+
 
   </article>
 
